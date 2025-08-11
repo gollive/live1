@@ -1,1576 +1,1753 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    
-
-
-
-<link rel="icon" href="https://i.ibb.co/zRvp5MR/ON-PLUS-ICONO.png" type="image/x-icon">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="theme-color" content="#ffffff">
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:image" content="https://i.ibb.co/zRvp5MR/ON-PLUS-ICONO.png" />
-<meta name="robots" content="index,follow">
-<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
-<script src="https://kit.fontawesome.com/ccee9ace0a.js" crossorigin="anonymous"></script>    
-</head>
-<style>
-    *,::before,::after {
-    box-sizing: border-box;
-    border-width: 0;
-    border-style: solid;
-    border-color: #e5e7eb;
-    
-   
-}
-
-::before,::after {
-    --tw-content: ''
-}
-
-html {
-    line-height: 1.5;
-    -webkit-text-size-adjust: 100%;
-    -moz-tab-size: 4;
-    -o-tab-size: 4;
-    tab-size: 4;
-    font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
-    font-feature-settings: normal
-}
-
-body {
-    margin: 0;
-    line-height: inherit;
-    color:#fff !important;
-}
-
-hr {
-    height: 0;
-    color: inherit;
-    border-top-width: 1px
-}
-
-abbr:where([title]) {
-    text-decoration: underline;
-    -webkit-text-decoration: underline dotted;
-    text-decoration: underline dotted
-}
-
-h1,h2,h3,h4,h5,h6 {
-    font-size: inherit;
-    font-weight: inherit
-}
-
-a {
-    color: inherit;
-    text-decoration: inherit
-}
-
-b,strong {
-    font-weight: bolder
-}
-
-code,kbd,samp,pre {
-    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,liberation mono,courier new,monospace;
-    font-size: 1em
-}
-
-small {
-    font-size: 80%
-}
-
-sub,sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline
-}
-
-sub {
-    bottom: -.25em
-}
-
-sup {
-    top: -.5em
-}
-
-table {
-    text-indent: 0;
-    border-color: inherit;
-    border-collapse: collapse
-}
-
-button,input,optgroup,select,textarea {
-    font-family: inherit;
-    font-size: 100%;
-    font-weight: inherit;
-    line-height: inherit;
-    color: inherit;
-    margin: 0;
-    padding: 0
-}
-
-button,select {
-    text-transform: none
-}
-
-button,[type=button],[type=reset],[type=submit] {
-    -webkit-appearance: button;
-    background-color: transparent;
-    background-image: none
-}
-
-:-moz-focusring {
-    outline: auto
-}
-
-:-moz-ui-invalid {
-    box-shadow: none
-}
-
-progress {
-    vertical-align: baseline
-}
-
-::-webkit-inner-spin-button,::-webkit-outer-spin-button {
-    height: auto
-}
-
-[type=search] {
-    -webkit-appearance: textfield;
-    outline-offset: -2px
-}
-
-::-webkit-search-decoration {
-    -webkit-appearance: none
-}
-
-::-webkit-file-upload-button {
-    -webkit-appearance: button;
-    font: inherit
-}
-
-summary {
-    display: list-item
-}
-
-blockquote,dl,dd,h1,h2,h3,h4,h5,h6,hr,figure,p,pre {
-    margin: 0
-}
-
-fieldset {
-    margin: 0;
-    padding: 0
-}
-
-legend {
-    padding: 0
-}
-
-ol,ul,menu {
-    list-style: none;
-    margin: 0;
-    padding: 0
-}
-
-textarea {
-    resize: vertical
-}
-
-input::-moz-placeholder,textarea::-moz-placeholder {
-    opacity: 1;
-    color: #9ca3af
-}
-
-input::placeholder,textarea::placeholder {
-    opacity: 1;
-    color: #9ca3af
-}
-
-button,[role=button] {
-    cursor: pointer
-}
-
-:disabled {
-    cursor: default
-}
-
-img,svg,video,canvas,audio,iframe,embed,object {
-    display: block;
-    vertical-align: middle
-}
-
-img,video {
-    max-width: 100%;
-    height: auto
-}
-
-[hidden] {
-    display: none
-}
-
-
-
-*,::before,::after {
-    --tw-border-spacing-x: 0;
-    --tw-border-spacing-y: 0;
-    --tw-translate-x: 0;
-    --tw-translate-y: 0;
-    --tw-rotate: 0;
-    --tw-skew-x: 0;
-    --tw-skew-y: 0;
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    --tw-pan-x: ;
-    --tw-pan-y: ;
-    --tw-pinch-zoom: ;
-    --tw-scroll-snap-strictness: proximity;
-    --tw-ordinal: ;
-    --tw-slashed-zero: ;
-    --tw-numeric-figure: ;
-    --tw-numeric-spacing: ;
-    --tw-numeric-fraction: ;
-    --tw-ring-inset: ;
-    --tw-ring-offset-width: 0px;
-    --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgba(59, 130, 246, 0.5);
-    --tw-ring-offset-shadow: 0 0 rgba(0,0,0,0);
-    --tw-ring-shadow: 0 0 rgba(0,0,0,0);
-    --tw-shadow: 0 0 rgba(0,0,0,0);
-    --tw-shadow-colored: 0 0 rgba(0,0,0,0);
-    --tw-blur: ;
-    --tw-brightness: ;
-    --tw-contrast: ;
-    --tw-grayscale: ;
-    --tw-hue-rotate: ;
-    --tw-invert: ;
-    --tw-saturate: ;
-    --tw-sepia: ;
-    --tw-drop-shadow: ;
-    --tw-backdrop-blur: ;
-    --tw-backdrop-brightness: ;
-    --tw-backdrop-contrast: ;
-    --tw-backdrop-grayscale: ;
-    --tw-backdrop-hue-rotate: ;
-    --tw-backdrop-invert: ;
-    --tw-backdrop-opacity: ;
-    --tw-backdrop-saturate: ;
-    --tw-backdrop-sepia:
-;
-}
-
-::backdrop {
-    --tw-border-spacing-x: 0;
-    --tw-border-spacing-y: 0;
-    --tw-translate-x: 0;
-    --tw-translate-y: 0;
-    --tw-rotate: 0;
-    --tw-skew-x: 0;
-    --tw-skew-y: 0;
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    --tw-pan-x: ;
-    --tw-pan-y: ;
-    --tw-pinch-zoom: ;
-    --tw-scroll-snap-strictness: proximity;
-    --tw-ordinal: ;
-    --tw-slashed-zero: ;
-    --tw-numeric-figure: ;
-    --tw-numeric-spacing: ;
-    --tw-numeric-fraction: ;
-    --tw-ring-inset: ;
-    --tw-ring-offset-width: 0px;
-    --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgba(59, 130, 246, 0.5);
-    --tw-ring-offset-shadow: 0 0 rgba(0,0,0,0);
-    --tw-ring-shadow: 0 0 rgba(0,0,0,0);
-    --tw-shadow: 0 0 rgba(0,0,0,0);
-    --tw-shadow-colored: 0 0 rgba(0,0,0,0);
-    --tw-blur: ;
-    --tw-brightness: ;
-    --tw-contrast: ;
-    --tw-grayscale: ;
-    --tw-hue-rotate: ;
-    --tw-invert: ;
-    --tw-saturate: ;
-    --tw-sepia: ;
-    --tw-drop-shadow: ;
-    --tw-backdrop-blur: ;
-    --tw-backdrop-brightness: ;
-    --tw-backdrop-contrast: ;
-    --tw-backdrop-grayscale: ;
-    --tw-backdrop-hue-rotate: ;
-    --tw-backdrop-invert: ;
-    --tw-backdrop-opacity: ;
-    --tw-backdrop-saturate: ;
-    --tw-backdrop-sepia:
-}
-
-.container {
-    width: 100%
-}
-
-@media(min-width: 640px) {
-    .container {
-        /* max-width:640px; */
-    }
-}
-
-@media(min-width: 768px) {
-    .container {
-        /* max-width:768px; */
-    }
-}
-
-@media(min-width: 1024px) {
-    .container {
-        /* max-width:1024px; */
-    }
-}
-
-@media(min-width: 1280px) {
-    .container {
-        /* max-width:1280px; */
-    }
-}
-
-@media(min-width: 1536px) {
-    .container {
-        /* max-width:1536px; */
-    }
-}
-
-.collapse {
-    visibility: collapse
-}
-
-.static {
-    position: static
-}
-
-.fixed {
-    position: fixed
-}
-
-.absolute {
-    position: absolute
-}
-
-.relative {
-    position: relative
-}
-
-.inset-0 {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0
-}
-
-.top-0 {
-    top: 0
-}
-
-.bottom-0 {
-    bottom: 0
-}
-
-.right-0 {
-    right: 0
-}
-
-.z-50 {
-    z-index: 50
-}
-
-.col-span-2 {
-    grid-column: span 2/span 2
-}
-
-.col-span-4 {
-    grid-column: span 4/span 4
-}
-
-.col-span-3 {
-    grid-column: span 3/span 3
-}
-
-.m-3 {
-    margin: .75rem
-}
-
-.m-2 {
-    margin: .5rem
-}
-
-.mx-auto {
-    margin-left: auto;
-    margin-right: auto
-}
-
-.my-3 {
-    margin-top: .75rem;
-    margin-bottom: .75rem
-}
-
-.my-4 {
-    margin-top: 1rem;
-    margin-bottom: 1rem
-}
-
-.my-2 {
-    margin-top: .5rem;
-    margin-bottom: .5rem
-}
-
-.my-5 {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem
-}
-
-.my-12 {
-    margin-top: 3rem;
-    margin-bottom: 3rem
-}
-
-.my-8 {
-    margin-top: 2rem;
-    margin-bottom: 2rem
-}
-
-.mx-3 {
-    margin-left: .75rem;
-    margin-right: .75rem
-}
-
-.mb-\[-1px\] {
-    margin-bottom: -1px
-}
-
-.mr-2 {
-    margin-right: .5rem
-}
-
-.ml-auto {
-    margin-left: auto
-}
-
-.mb-auto {
-    margin-bottom: auto
-}
-
-.mt-4 {
-    margin-top: 1rem
-}
-
-.mt-auto {
-    margin-top: auto
-}
-
-.mt-3 {
-    margin-top: .75rem
-}
-
-.mb-4 {
-    margin-bottom: 1rem
-}
-
-.mb-2 {
-    margin-bottom: .5rem
-}
-
-.mb-3 {
-    margin-bottom: .75rem
-}
-
-.mt-6 {
-    margin-top: 1.5rem
-}
-
-.block {
-    display: block
-}
-
-.flex {
-    display: flex
-}
-
-.table {
-    display: table
-}
-
-.grid {
-    display: grid
-}
-
-.hidden {
-    display: none
-}
-
-.h-4 {
-    height: 1rem
-}
-
-.h-screen {
-    height: 100vh
-}
-
-.h-6 {
-    height: 1.5rem
-}
-
-.h-\[21rem\] {
-    height: 21rem
-}
-
-.h-full {
-    height: 100%
-}
-
-.h-28 {
-    height: 7rem
-}
-
-.h-3 {
-    height: .75rem
-}
-
-.h-16 {
-    height: 4rem
-}
-
-.h-8 {
-    height: 2rem
-}
-
-.h-5 {
-    height: 1.25rem
-}
-
-.w-full {
-    width: 100%
-}
-
-.w-4 {
-    width: 1rem
-}
-
-.w-6 {
-    width: 1.5rem
-}
-
-.w-28 {
-    width: 7rem
-}
-
-.w-1\/3 {
-    width: 33.333333%
-}
-
-.w-3 {
-    width: .75rem
-}
-
-.w-\[32px\] {
-    width: 32px
-}
-
-.w-auto {
-    width: auto
-}
-
-.w-5 {
-    width: 1.25rem
-}
-
-.w-10 {
-    width: 2.5rem
-}
-
-.max-w-7xl {
-    max-width: 100%;
-}
-
-.max-w-xs {
-    max-width: 20rem
-}
-
-.flex-1 {
-    flex: 1 1 0%
-}
-
-.flex-shrink-0 {
-    flex-shrink: 0
-}
-
-.transform {
-    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
-}
-
-.cursor-pointer {
-    cursor: pointer
-}
-
-.resize {
-    resize: both
-}
-
-.appearance-none {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none
-}
-
-.columns-3 {
-    -moz-columns: 3;
-    columns: 3
-}
-
-.grid-cols-2 {
-    grid-template-columns: repeat(2,minmax(0,1fr))
-}
-
-.flex-col {
-    flex-direction: column
-}
-
-.items-center {
-    align-items: center
-}
-
-.justify-center {
-    justify-content: center
-}
-
-.justify-between {
-    justify-content: space-between;
-}
-
-.justify-evenly {
-    justify-content: space-evenly
-}
-
-.gap-2 {
-    gap: .5rem
-}
-
-.gap-3 {
-    gap: .75rem
-}
-
-.gap-6 {
-    gap: 1.5rem
-}
-
-.gap-4 {
-    gap: 1rem
-}
-
-.overflow-hidden {
-    overflow: hidden
-}
-
-.rounded {
-    border-radius: .25rem
-}
-
-.rounded-lg {
-    border-radius: .5rem
-}
-
-.border {
-    border: solid 1px #ffffff52;
-}
-
-.border-r {
-    border-right-width: 1px
-}
-
-.border-slate-500 {
-    --tw-border-opacity: 1;
-    border-color: #64748b;
-    border-color: rgb(100 116 139/var(--tw-border-opacity))
-}
-
-.border-red-500 {
-    --tw-border-opacity: 1;
-    border-color: #ef4444;
-    border-color: rgb(239 68 68/var(--tw-border-opacity))
-}
-
-.border-red-300 {
-    --tw-border-opacity: 1;
-    border-color: #fca5a5;
-    border-color: rgb(252 165 165/var(--tw-border-opacity))
-}
-
-.bg-green-600 {
-    --tw-bg-opacity: 1;
-    background-color: #16a34a;
-    background-color: rgb(22 163 74/var(--tw-bg-opacity))
-}
-
-.bg-slate-50 {
-    --tw-bg-opacity: 1;
-    background-color: #f8fafc;
-    background-color: rgb(248 250 252/var(--tw-bg-opacity))
-}
-
-.bg-indigo-100 {
-    --tw-bg-opacity: 1;
-    background-color: #e0e7ff;
-    background-color: rgb(224 231 255/var(--tw-bg-opacity))
-}
-
-.bg-blue-100 {
-    --tw-bg-opacity: 1;
-    background-color: #dbeafe;
-    background-color: rgb(219 234 254/var(--tw-bg-opacity))
-}
-
-.bg-red-500 {
-    --tw-bg-opacity: 1;
-    background-color: #ef4444;
-    background-color: rgb(239 68 68/var(--tw-bg-opacity))
-}
-
-.bg-slate-200 {
-    /* --tw-bg-opacity: 1; */
-    background-color: rgba(20,29,38,.3);
-    /* background-color: rgb(226 232 240/var(--tw-bg-opacity)); */
-}
-
-.bg-cyan-700 {
-    --tw-bg-opacity: 1;
-    background-color: #eef8fc;
-    /* background-color: rgb(14 116 144/var(--tw-bg-opacity)); */
-}
-
-.bg-white {
-    --tw-bg-opacity: 1;
-    background-color: #fff;
-    background-color: rgb(255 255 255/var(--tw-bg-opacity))
-}
-
-.bg-blue-500 {
-    --tw-bg-opacity: 1;
-    background-color: #3b82f6;
-    background-color: rgb(59 130 246/var(--tw-bg-opacity))
-}
-
-.bg-red-400 {
-    --tw-bg-opacity: 1;
-    background-color: #f87171;
-    background-color: rgb(248 113 113/var(--tw-bg-opacity))
-}
-
-.bg-slate-100 {
-    --tw-bg-opacity: 1;
-    background-color: #0d141e;
-    /* background-color: rgb(241 245 249/var(--tw-bg-opacity)); */
-    border-bottom: solid 1px #ffffff4f;
-}
-
-.bg-gray-900 {
-    --tw-bg-opacity: 1;
-    background-color: #044be2;
-    background-color: rgb(17 24 39/var(--tw-bg-opacity))
-}
-
-.bg-opacity-50 {
-    --tw-bg-opacity: 0.5
-}
-
-.fill-current {
-    fill: currentColor
-}
-
-.object-contain {
-    -o-object-fit: contain;
-    object-fit: contain;
-    margin-top: 1.6rem;
-}
-
-.p-2 {
-    padding: .5rem
-}
-
-.p-2\.5 {
-    padding: .625rem
-}
-
-.p-3 {
-    padding: .75rem
-}
-
-.px-1 {
-    padding-left: .25rem;
-    padding-right: .25rem
-}
-
-.px-2\.5 {
-    padding-left: .625rem;
-    padding-right: .625rem
-}
-
-.py-0\.5 {
-    padding-top: .125rem;
-    padding-bottom: .125rem
-}
-
-.px-2 {
-    padding-left: .5rem;
-    padding-right: .5rem
-}
-
-.py-0 {
-    padding-top: 0;
-    padding-bottom: 0
-}
-
-.px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem 
-}
-
-.py-3 {
-    padding-top: .75rem;
-    padding-bottom: .75rem
-}
-
-.px-3 {
-    padding-left: .75rem;
-    padding-right: .75rem
-}
-
-.py-2 {
-    padding-top: .5rem;
-    padding-bottom: .5rem
-}
-
-.py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem
-}
-
-.px-8 {
-    padding-left: 2rem;
-    padding-right: 2rem
-}
-
-.pt-6 {
-    padding-top: 1.5rem
-}
-
-.pb-8 {
-    padding-bottom: 2rem
-}
-
-.text-left {
-    text-align: left
-}
-
-.text-center {
-    text-align: center;
-    color: #858585;
-}
-
-.font-sans {
-    font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji
-}
-
-.text-sm {
-    font-size: .875rem;
-    line-height: 1.25rem
-}
-
-.text-xs {
-    font-size: .75rem;
-    line-height: 1rem
-}
-
-.text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-    color: #fff;
-}
-
-.text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem
-}
-
-.text-6xl {
-    font-size: 3.75rem;
-    line-height: 1
-}
-
-.font-semibold {
-    font-weight: 600
-}
-
-.font-medium {
-    font-weight: 500
-}
-
-.font-bold {
-    font-weight: 700
-}
-
-.leading-tight {
-    line-height: 1.25
-}
-
-.text-white {
-    --tw-text-opacity: 1;
-    color: #000;
-    /* color: rgb(255 255 255/var(--tw-text-opacity)); */
-}
-
-.text-indigo-800 {
-    --tw-text-opacity: 1;
-    color: #3730a3;
-    color: rgb(55 48 163/var(--tw-text-opacity))
-}
-
-.text-blue-800 {
-    --tw-text-opacity: 1;
-    color: #1e40af;
-    color: rgb(30 64 175/var(--tw-text-opacity))
-}
-
-.text-zinc-600 {
-    --tw-text-opacity: 1;
-    color: #52525b;
-    color: rgb(82 82 91/var(--tw-text-opacity));
-    background: #141d26;
-}
-
-.text-gray-800 {
-    --tw-text-opacity: 1;
-    color: #d9d9d9;
-    /* color: rgb(31 41 55/var(--tw-text-opacity)); */
-}
-
-.text-gray-600 {
-    --tw-text-opacity: 1;
-    color: #4b5563;
-    color: rgb(75 85 99/var(--tw-text-opacity))
-}
-
-.text-gray-700 {
-    --tw-text-opacity: 1;
-    color: #374151;
-    color: rgb(55 65 81/var(--tw-text-opacity))
-}
-
-.text-blue-500 {
-    --tw-text-opacity: 1;
-    color: #3b82f6;
-    color: rgb(59 130 246/var(--tw-text-opacity))
-}
-
-.text-gray-500 {
-    --tw-text-opacity: 1;
-    color: #6b7280;
-    color: rgb(107 114 128/var(--tw-text-opacity))
-}
-
-.opacity-0 {
-    opacity: 0
-}
-
-.shadow-lg {
+<html>
+    <head>    
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="icon" href="https://i.ibb.co/39mW1sjt/ON-PLUS2.png" type="image/x-icon">
+        <script type="text/javascript" src="/agenda/smallscripts.js"></script>
+        <meta http-equiv="refresh" content="70">
+        
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="expires" content="-1">
+	    <meta name="referrer" content="no-referrer">
+        <meta name="googlebot" content="noindex">
+        <title>Agenda Deportiva </title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"><style>@charset "UTF-8"; body{ font-size: 100%;background:#101c2900 }a {text-decoration: none}ul,ul ul {margin: 0;padding: 0;list-style: none}#wraper {width: 100%;margin: 0 auto;
+font-size: .8125em}
+
+.menu {width: auto;height: auto;-webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .73), 0 0 18px 0 rgba(0, 0, 0, .1);-moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .73), 0 0 18px 0 rgba(0, 0, 0, .1);box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .73), 0 0 18px 0 rgba(0, 0, 0, .1)}.menu>li>a { background-color: #000;
+background-image: -webkit-gradient(linear,left top,left bottom,from(rgb(255,255,255)),to(rgb(148,204,124)));background-image: -webkit-linear-gradient(top,rgb(255,255,255),rgb(255,255,255));background-image: -moz-linear-gradient(top,rgb(255,255,255),rgb(255,255,255));background-image: -o-linear-gradient(top,rgb(255,255,255),rgb(255,255,255));background-image: -ms-linear-gradient(top,rgb(255,255,255),rgb(255,255,255));background-image: linear-gradient(top,rgb(255,255,255),rgb(255,255,255));filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#727a86',EndColorStr='#505864');border-bottom: 0 solid #33373d;-webkit-box-shadow: inset 0 1px 0 0 #878e98;-moz-box-shadow: inset 0 1px 0 0 #878e98;box-shadow: inset 0 1px 0 0 #878e98;width: 100%;height: 2.8em;line-height: 2.8em;text-indent: 7.9em;display: block;position: relative;font-family: arial,Arial,Helvetica,sans-serif;font-weight: 600;color: #000;font-size: 1em;
+text-shadow: 0 0 0 #000}.menu ul li a {background: #fff;border-bottom: 1px solid #efeff0;width: 100%;height: 2.8em;line-height: 2.8em;text-indent: 3.75em;display: block;position: relative;font-family: arial, Arial, Helvetica, sans-serif;font-size: 1em;font-weight: 500;color: #789}.menu ul li:last-child a {border-bottom: 1px solid #33373d}
+
+.menu>li>a:hover, .menu>li>a.active {
+background-color: #FFB30F;background-image: -webkit-linear-gradient(top,#FFB30F ,#FFB30F);border-bottom: 1px solid #404040;box-shadow: inset 0 1px 0 0 #404040;
+}.menu>li>a.active {border-bottom: 0 solid #404040}@media only screen and (max-width: 600px) {.menu > li > a:before {left: 22px;}}.menu > li > 
+a:before {content: '';background-repeat: no-repeat;background-size: contain; background-position: center;font-size: 27px;height: 0.8em;width: 1.7em;position: absolute;left: 55px;top: 50%;margin: -.45em 0 0;} 
+
+.menu>li>a span {font-size: .95em;display: inline-block;position: absolute;left: .3em;top: 50%;
+    background: #f10303;line-height: 1em;height: 1em;padding: .3em .6em;margin: -.8em 0 0;color: #ffffff;text-indent: 0;text-align: 
+center;-webkit-border-radius: .769em;-moz-border-radius: .769em;border-radius: .569em; -webkit-box-shadow: 
+inset 0 1px 3px 0 rgba(0, 0, 0, .16), 0 1px 0 0 rgba(63, 68, 74, .1);-moz-box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, .16), 0 1px 0 0 rgba(63, 68, 74, .1);box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, .16), 0 1px 0 0 rgba(63, 68, 74, .1);text-shadow: 0 1px 0 rgba(0, 0, 0, .5); font-weight: 500}
+
+.menu>li>a:hover span,.menu>li a
+.active span {background: 404040}
+.menu>li>ul li a:before {content: '▶';font-size: 9px;color: #000; position: absolute;width: 1em;height: 1em;top: 0;left: -2.7em}.menu>li>ul li:hover a,.menu>li>ul li:hover a 
+span,.menu>li>ul li:hover a:before { color: #2e9afe}.menu ul>li>a span {font-size: .857em;display: inline-block;position: absolute;right: 1em;top: 50%;background: #fff;border: 1px solid #d0d0d3;line-height: 1em;height: 1em;padding: 0.4em 0.7em;margin: -0.9em 0 0;color: #000;text-indent: 0;text-align: center;-webkit-border-radius: 0.769em;-moz-border-radius: 769em;border-radius: 769em;text-shadow: 0 0 0 rgba(255,255,255,.01);} 
+
+
+div.sombreada_css3 {
+            color: #fdfffd;
+        background: linear-gradient(
+		to top,
+		#E80000 33.33%,
+		#ffae00 30033.33%,
+		#ffae00 366.66%,
+		#E80000 366.66%
+	);
+margin-right: 0.0rem;
+            font-size: 15px;
+            font-weight: 600;
+            background-color: #ca9a09;
+            width: 100%px;
+            padding: 12px;
            
-            border: 8px groove rgb(255, 165, 0);
-            border-radius: 9px;
+        }
 
-    --tw-shadow: 5px 5px 35px -5px rgba(255, 165, 0); 0 4px 6px -4px rgba(0, 0, 0, 0.1);
-    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-    box-shadow: 0 0 transparent,0 0 transparent,0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);
-    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)
+
+
+.AR > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//55.png);
 }
 
-.shadow-md {
-    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
-    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
-    box-shadow: 0 0 transparent,0 0 transparent,0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);
-    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)
+.ES > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//34.png);
+}
+	       
+.IT > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//37.png);
 }
 
-.shadow {
-    --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
-    --tw-shadow-colored: 0 1px 3px 0 var(
-    --tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
-    box-shadow: 0 0 transparent,0 0 transparent,0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);
-    /* box-shadow: var(--tw-ring-offset-shadow,0 0 #fffff),var(--tw-ring-shadow,0 0 #fffff),var(--tw-shadow); */
+.ALE > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//96.png);
 }
 
-.blur {
-    --tw-blur: blur(8px);
-    filter: blur(8px) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
+.ENG > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//61.png);
+}
+	       
+.POR > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//43.png);
 }
 
-.filter {
-    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
+.FRA > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//45.png);
 }
 
-.transition-all {
-    transition-property: all;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
-    transition-duration: 150ms
+.MEX > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//69.png);
 }
 
-.transition-\[height\] {
-    transition-property: height;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
-    transition-duration: 150ms
+.COL > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//118.png);
+}
+	       
+.CH > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//35.png);
 }
 
-.transition-opacity {
-    transition-property: opacity;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
-    transition-duration: 150ms
+.URU > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//56.png);
 }
 
-.transition {
-    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;
-    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;
-    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
-    transition-duration: 150ms
+.BRA > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//79.png);
 }
 
-.duration-300 {
-    transition-duration: 300ms
+.PE > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//127.png);
 }
 
-.duration-500 {
-    transition-duration: 500ms
+.ECUA > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//101.png);
 }
 
-body {
-    color: var(--secondary);
-    font-family: roboto,sans-serif;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-    transition: all .4s;
-    background: #5f0101;
-    color: #fff;
+.PY > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//47.png);
 }
 
-.opacity-0 {
-    opacity: 0
+.BOL > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//840.png);
+}
+	       
+.VEN > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//591.png);
+}
+.JP > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//52.png);
 }
 
-.focus\:outline-none:focus {
-    outline: 2px solid transparent;
-    outline-offset: 2px
+.AUS > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//74.png);
 }
 
-.focus\:ring-4:focus {
-    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
-    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color);
-    box-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color),var(--tw-ring-inset) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color),0 0 rgba(0,0,0,0);
-    box-shadow: var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow,0 0 #0000)
+.USA > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//81.png);
 }
 
-.focus\:ring-gray-200:focus {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(229, 231, 235, var(--tw-ring-opacity))
+.MLS > a:before {
+    background-image: url(https://i.ibb.co/0pJWKSJh/MLS.png);
 }
 
-.group:hover .group-hover\:text-gray-500 {
-    --tw-text-opacity: 1;
-    color: #6b7280;
-    color: rgb(107 114 128/var(--tw-text-opacity))
+.SCO > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//113.png);
 }
 
-.hover\:bg-green-500:hover {
-    --tw-bg-opacity: 1;
-    background-color: #22c55e;
-    background-color: rgb(34 197 94/var(--tw-bg-opacity))
+.ARA > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//104.png);
+}	       
+
+.CR > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//98.png);
 }
 
-.hover\:bg-cyan-800:hover {
-    --tw-bg-opacity: 1;
-    background-color: #ffffffdb;
-    /* background-color: rgb(21 94 117/var(--tw-bg-opacity)); */
-    color: #000;
+
+.HON > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//91.png);
+}
+	       
+.TUR > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//123.png);
 }
 
-.hover\:bg-blue-700:hover {
-    --tw-bg-opacity: 1;
-    background-color: #1d4ed8;
-    background-color: rgb(29 78 216/var(--tw-bg-opacity))
+.HOL > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//38.png);
 }
 
-.hover\:bg-gray-100:hover {
-    --tw-bg-opacity: 1;
-    background-color: #f3f4f6;
-    background-color: rgb(243 244 246/var(--tw-bg-opacity))
+
+
+.BEL > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//116.png);
 }
 
-.hover\:text-white:hover {
-    --tw-text-opacity: 1;
-    color: #fff;
-    color: rgb(255 255 255/var(--tw-text-opacity))
+.GT > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//593.png);
+}	       
+	
+
+.VOLEY > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//voley.png);
+}	       
+
+.NHL > a:before {
+    background-image: url(/img/nhl.svg);
+}
+	       
+
+
+.WWE > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr/wwe.png);
 }
 
-.hs-accordion.active.hs-accordion-active\:block {
-    display: block
+
+.CHA > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr//5.png);
 }
 
-.hs-accordion.active.hs-accordion-active\:hidden {
-    display: none
+.UE > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr/7.png);
 }
 
-.hs-accordion.active.hs-accordion-active\:bg-green-500 {
-    --tw-bg-opacity: 1;
-    background-color: #22c55e;
-    background-color: rgb(34 197 94/var(--tw-bg-opacity))
+
+.UEC > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/jr/2762.png);
 }
 
-.hs-accordion.active.hs-accordion-active\:text-white {
-    --tw-text-opacity: 1;
-    color: #fff;
-    color: rgb(255 255 255/var(--tw-text-opacity))
+.OSCAR > a:before {
+    background-image: url(https://partidosenvivo.net/flags/oscars.png);
+}	       
+
+.SUD > a:before {
+    background-image: url(https://images.onefootball.com/icons/leagueColoredCompetition/128/102.png);
 }
 
-.hs-accordion.active.hs-accordion-active\:text-blue-600 {
-    --tw-text-opacity: 1;
-    color: #2563eb;
-    color: rgb(37 99 235/var(--tw-text-opacity))
+
+.AMERICA > a:before {
+    background-image: url(https://images.onefootball.com/icons/leagueColoredCompetition/128/37.png);
 }
 
-.hs-accordion.active.group:hover .hs-accordion-active\:group-hover\:text-blue-600 {
-    --tw-text-opacity: 1;
-    color: #2563eb;
-    color: rgb(37 99 235/var(--tw-text-opacity))
+.EURO > a:before {
+    background-image: url(https://images.onefootball.com/icons/leagueColoredCompetition/128/22.png);
 }
 
-.hs-accordion.active>.hs-accordion-toggle .hs-accordion-active\:block {
-    display: block
+.SUPERCUPE > a:before {
+    background-image: url(https://images.onefootball.com/icons/leagueColoredCompetition/128/68.png);
+}
+	       
+.EUROF > a:before {
+    background-image: url(https://images.onefootball.com/icons/leagueColoredCompetition/128/480.png);
 }
 
-.hs-accordion.active>.hs-accordion-toggle .hs-accordion-active\:hidden {
-    display: none
+.BAS > a:before {
+    background-image: url(https://i.ibb.co/gZgbvZFf/LIBO1.png);
 }
 
-.hs-accordion.active>.hs-accordion-toggle .hs-accordion-active\:bg-green-500 {
-    --tw-bg-opacity: 1;
-    background-color: #22c55e;
-    background-color: rgb(34 197 94/var(--tw-bg-opacity))
+.TE > a:before {
+    background-image: url(https://static.futbolenlatv.com/img/32/20130618113307-tenis.png);
 }
 
-.hs-accordion.active>.hs-accordion-toggle .hs-accordion-active\:text-white {
-    --tw-text-opacity: 1;
-    color: #fff;
-    color: rgb(255 255 255/var(--tw-text-opacity))
+
+.FUT > a:before {
+    background-image: url(https://static.futbolenlatv.com/img/32/20130618113222-futbol.png);
 }
 
-.hs-accordion.active>.hs-accordion-toggle .hs-accordion-active\:text-blue-600 {
-    --tw-text-opacity: 1;
-    color: #2563eb;
-    color: rgb(37 99 235/var(--tw-text-opacity))
+.RUG > a:before {
+    background-image: url(https://static.futbolenlatv.com/img/32/20200729125932-rugby.png);
 }
 
-.hs-accordion.active>.hs-accordion-toggle .group:hover .hs-accordion-active\:group-hover\:text-blue-600 {
-    --tw-text-opacity: 1;
-    color: #2563eb;
-    color: rgb(37 99 235/var(--tw-text-opacity))
+.NFL2 > a:before {
+    background-image: url(https://static.futbolenlatv.com/img/32/20200804171715-futbol-americano.png);
 }
 
-.hs-accordion.active>.hs-accordion-toggle.hs-accordion-active\:block {
-    display: block
+.HAND > a:before {
+    background-image: url(https://partidosenvivo.net/flags/handball.png);
+}
+.AFCUP > a:before {
+    background-image: url(https://images.onefootball.com/icons/leagueColoredCompetition/128/156.png);
+}	       
+
+       
+.CONNAT> a:before {
+    background-image: url(https://images.onefootball.com/icons/leagueColoredCompetition/128/2730.png);
+}	       
+
+
+.CONCACAFCHA > a:before {
+    background-image: url(https://images.onefootball.com/icons/leagueColoredCompetition/128/190.png);
 }
 
-.hs-accordion.active>.hs-accordion-toggle.hs-accordion-active\:hidden {
-    display: none
+	
+				.NAT > a:before {
+    background-image: url(https://images.onefootball.com/icons/leagueColoredCompetition/128/2349.png);
+				}	
+
+
+.MOTOGP > a:before {
+    background-image: url(//partidosenvivo.net/flags/motogp.webp);
 }
 
-.hs-accordion.active>.hs-accordion-toggle.hs-accordion-active\:bg-green-500 {
-    --tw-bg-opacity: 1;
-    background-color: #22c55e;
-    background-color: rgb(34 197 94/var(--tw-bg-opacity))
+.INDYCAR > a:before {
+    background-image: url(indycar.png);
 }
 
-.hs-accordion.active>.hs-accordion-toggle.hs-accordion-active\:text-white {
-    --tw-text-opacity: 1;
-    color: #fff;
-    color: rgb(255 255 255/var(--tw-text-opacity))
+.F1 > a:before {
+    background-image: url(https://partidosenvivo.net/flags/f1.png);
+}
+	       
+.F2 > a:before {
+    background-image: url(https://partidosenvivo.net/flags/f2.png);
 }
 
-.hs-accordion.active>.hs-accordion-toggle.hs-accordion-active\:text-blue-600 {
-    --tw-text-opacity: 1;
-    color: #2563eb;
-    color: rgb(37 99 235/var(--tw-text-opacity))
+.F3 > a:before {
+    background-image: url(https://partidosenvivo.net/flags/f3.png);
+}	 
+
+.BKFC > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/trim.webp);
 }
 
-.hs-accordion.active>.hs-accordion-toggle.group:hover .hs-accordion-active\:group-hover\:text-blue-600 {
-    --tw-text-opacity: 1;
-    color: #2563eb;
-    color: rgb(37 99 235/var(--tw-text-opacity))
+.menu > li.MOTOGP > a:before {
+    background-image: url(//partidosenvivo.net/flags/motogp.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -5 0;
+    height: 1em;
+    width: 2em;
 }
 
-.dark .dark\:border-slate-700 {
-    --tw-border-opacity: 1;
-    border-color: #334155;
-    border-color: rgb(51 65 85/var(--tw-border-opacity))
+.menu > li.INDYCAR > a:before {
+    background-image: url(/agendaindycar.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 19px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em 0 0 4px;
+    height: 1em;
+    width: 2em;
+}
+	 
+.menu > li.BKFC > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/trim.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 21px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -1 0;
+    height: 1em;
+    width: 2em;
+}	 
+	       
+
+.menu > li.F1 > a:before {
+    background-image: url(https://partidosenvivo.net/flags/f1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 16px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em 6 0;
+    height: 1em;
+    width: 2em;
 }
 
-.dark .dark\:border-gray-600 {
-    --tw-border-opacity: 1;
-    border-color: #4b5563;
-    border-color: rgb(75 85 99/var(--tw-border-opacity))
+.menu > li.NAT > a:before {
+    background-image: url(https://images.onefootball.com/icons/leagueColoredCompetition/128/2349.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 30px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -5 0;
+    height: 1em;
+    width: 2em;
+}	       
+
+
+
+.menu > li.F2 > a:before {
+    background-image: url(https://partidosenvivo.net/flags/f2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 33px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -10 0;
+    height: 1em;
+    width: 2em;
+}	       
+
+
+.menu > li.F3 > a:before {
+    background-image: url(https://partidosenvivo.net/flags/f3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 16px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em 7 0;
+    height: 1em;
+    width: 2em;
+}	       
+
+	       
+	       
+.menu > li.NBA > a:before {
+background-image: url(/agenda/nba.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 23px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em 0 0;
+    height: 1em;
+    width: 2em;
 }
 
-.dark .dark\:bg-slate-800 {
-    --tw-bg-opacity: 1;
-    background-color: #1e293b;
-    background-color: rgb(30 41 59/var(--tw-bg-opacity))
+.menu > li.NCAA > a:before {
+background-image: url(/img/ncaa.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 23px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em 0 0;
+    height: 1em;
+    width: 2em;
 }
 
-.dark .dark\:bg-indigo-900 {
-    --tw-bg-opacity: 1;
-    background-color: #312e81;
-    background-color: rgb(49 46 129/var(--tw-bg-opacity))
+
+.menu > li.AFCCHA > a:before {
+background-image: url(https://images.onefootball.com/icons/leagueColoredCompetition/128/155.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -6px 0;
+    height: 1em;
+    width: 2em;
 }
 
-.dark .dark\:bg-blue-900 {
-    --tw-bg-opacity: 1;
-    background-color: #1e3a8a;
-    background-color: rgb(30 58 138/var(--tw-bg-opacity))
+.menu > li.LIB > a:before {
+background-image: url(https://tvlibreonline.org/agenda/jr/76.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -6px 0;
+    height: 1em;
+    width: 2em;
 }
 
-.dark .dark\:bg-slate-700 {
-    --tw-bg-opacity: 1;
-    background-color: #334155;
-    background-color: rgb(51 65 85/var(--tw-bg-opacity))
+
+.menu > li.MC > a:before {
+background-image: url(https://tvlibreonline.org/agenda/mc.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -6px 0;
+    height: 1em;
+    width: 2em;
 }
 
-.dark .dark\:bg-opacity-80 {
-    --tw-bg-opacity: 0.8
+
+.menu > li.SUPERCUPE > a:before {
+background-image: url(https://images.onefootball.com/icons/leagueColoredCompetition/128/68.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -6px 0;
+    height: 1em;
+    width: 2em;
 }
 
-.dark .dark\:text-slate-100 {
-    --tw-text-opacity: 1;
-    color: #f1f5f9;
-    color: rgb(241 245 249/var(--tw-text-opacity))
+.menu > li.OSCAR > a:before {
+background-image: url(https://partidosenvivo.net/flags/oscars.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -6px 0;
+    height: 1em;
+    width: 2em;
+}
+	       
+
+
+.menu > li.REC > a:before {
+background-image: url(https://images.onefootball.com/icons/leagueColoredCompetition/128/205.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -6px 0;
+    height: 1em;
+    width: 2em;
+}	       
+
+.menu > li.UE > a:before {
+background-image: url(https://tvlibreonline.org/agenda/jr/7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -6px 0;
+    height: 1em;
+    width: 2em;
 }
 
-.dark .dark\:text-indigo-300 {
-    --tw-text-opacity: 1;
-    color: #a5b4fc;
-    color: rgb(165 180 252/var(--tw-text-opacity))
+.menu > li.UEC > a:before {
+background-image: url(https://tvlibreonline.org/agenda/jr/2762.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -6px 0;
+    height: 1em;
+    width: 2em;
 }
 
-.dark .dark\:text-blue-300 {
-    --tw-text-opacity: 1;
-    color: #93c5fd;
-    color: rgb(147 197 253/var(--tw-text-opacity))
+.menu > li.CHA > a:before {
+background-image: url(https://tvlibreonline.org/agenda/jr/5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -6px 0;
+    height: 1em;
+    width: 2em;
 }
 
-.dark .dark\:text-slate-300 {
-    --tw-text-opacity: 1;
-    color: #cbd5e1;
-    color: rgb(203 213 225/var(--tw-text-opacity))
+.menu > li.LC > a:before {
+background-image: url(https://images.onefootball.com/icons/leagueColoredCompetition/128/2717.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    margin: -0.7em 3px 0;
+    height: 1em;
+    width: 2em;
+}	
+
+.menu > li.CONCACAF > a:before {
+    background-image: url(https://i.ibb.co/ZzNL8SN5/Concacaf-2023.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 27px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -5 0;
+    height: 1em;
+    width: 2em;
+}
+	  
+.menu > li.CONMEBOL > a:before {
+	       
+    background-image: url(https://partidosenvivo.net/flags/sudamerica.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 27px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -5 0;
+    height: 1em;
+    width: 2em;
+}	 
+
+.menu > li.UEFA > a:before {
+	       
+    background-image: url(https://www.tvlibreonline.org/agenda/uefa.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 27px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -5 0;
+    height: 1em;
+    width: 2em;
+}
+	  
+.menu > li.PR > a:before {
+    background-image: url(https://partidosenvivo.net/flags/preolimpico.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 28px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -5px 0;
+    height: 1em;
+    width: 2em;
+	}
+.menu > li.COSCK > a:before {
+background-image: url(/agenda/cos.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    font-size: 27px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -4px 0;
+    height: 1em;
+    width: 2em;
+	}
+	       
+.menu > li.FIFA > a:before {
+    background-image: url(/img/fifa.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 14px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em 10 0;
+  height: 1em;
+    width: 2em;
 }
 
-.dark .dark\:text-gray-400 {
-    --tw-text-opacity: 1;
-    color: #9ca3af;
-    color: rgb(156 163 175/var(--tw-text-opacity))
+.menu > li.MFP > a:before {
+    background-image: url(https://partidosenvivo.net/flags/MFP.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 27px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -5 0;
+    height: 1em;
+    width: 2em;
 }
 
-.dark .dark\:focus\:ring-gray-700:focus {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(55, 65, 81, var(--tw-ring-opacity))
+.menu > li.GOLD > a:before {
+    background-image: url(//partidosenvivo.net/flags/goldcup.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 27px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -5 0;
+    height: 1em;
+    width: 2em;
+}	       
+
+
+.menu > li.UFC > a:before {
+    background-image: url(//partidosenvivo.net/flags/UFC.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -5 0;
+    height: 1em;
+    width: 2em;
 }
 
-.dark .dark\:hover\:bg-gray-700:hover {
-    --tw-bg-opacity: 1;
-    background-color: #374151;
-    background-color: rgb(55 65 81/var(--tw-bg-opacity))
+
+
+.menu > li.CONNAT > a:before {
+    background-image: url(https://images.onefootball.com/icons/leagueColoredCompetition/128/2730.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 37px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -13 0;
+    height: 1em;
+    width: 2em;
+}	       
+
+.menu > li.CAR > a:before {
+    background-image: url(https://tvlibreonline.org/img/lema.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 27px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -7 0;
+    height: 1em;
+    width: 2em;
 }
 
-@media(min-width: 640px) {
-    .sm\:items-stretch {
-        align-items:stretch
-    }
-
-    .sm\:justify-start {
-        justify-content: flex-start
-    }
-
-    .sm\:px-6 {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem
-    }
+.menu > li.AEW > a:before {
+    background-image: url(https://tvlibreonline.org/img/aew.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 27px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -7 0;
+    height: 1em;
+    width: 2em;
+}
+	       
+	       
+.menu > li.BMX > a:before {
+    background-image: url(https://partidosenvivo.net/flags/bmx.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 27px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -7 0;
+    height: 1em;
+    width: 2em;
 }
 
-@media(min-width: 768px) {
-    .md\:col-span-2 {
-        grid-column:span 2/span 2
-    }
-
-    .md\:col-span-3 {
-        grid-column: span 3/span 3
-    }
-
-    .md\:grid-cols-3 {
-        grid-template-columns: repeat(3,minmax(0,1fr))
-    }
-
-    .md\:grid-cols-2 {
-        grid-template-columns: repeat(2,minmax(0,1fr))
-    }
-
-    .md\:grid-cols-5 {
-        grid-template-columns: repeat(5,minmax(0,1fr))
-    }
-
-    .md\:grid-cols-6 {
-        grid-template-columns: repeat(6,minmax(0,1fr))
-    }
+.menu > li.BOX > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/box.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -8 0;
+    height: 1em;
+    width: 2em;
 }
 
-@media(min-width: 1024px) {
-    .lg\:px-8 {
-        padding-left:2rem;
-        padding-right: 2rem
-    }
+.menu > li.MLB > a:before {
+    background-image: url(https://partidosenvivo.net/flags/mlb.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -8 0;
+    height: 1em;
+    width: 2em;
 }
-.logo {
+
+
+.menu > li.OLY > a:before {
+    background-image: url(https://partidosenvivo.net/flags/olimpicos2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -8 0;
+    height: 1em;
+    width: 2em;
+}
+	       
+.menu > li.LMB > a:before {
+    background-image: url(https://partidosenvivo.net/flags/lmb.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -8 0;
+    height: 1em;
+    width: 2em;
+}
+
+.menu > li.CICLISMO > a:before {
+    background-image: url(//partidosenvivo.net/flags/ciclismo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -8 0;
+    height: 1em;
+    width: 2em;
+}
+	
+.menu > li.EUROLEAGUE > a:before {
+    background-image: url(https://partidosenvivo.net/flags/euroleaguebasket.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 35px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -12 0;
+    height: 1em;
+    width: 2em;
+}	     
+
+.menu > li.RR > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/rr.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     font-size: 25px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #fff;
-}
- /* Para navegadores WebKit (Safari y Chrome) */
-::-webkit-scrollbar {
-  width: 12px; 
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -2 0;
+    height: 1em;
+    width: 2em;
 }
 
-::-webkit-scrollbar-track {
-  background: #141d26; 
+.menu > li.CAF > a:before {
+    background-image: url(https://tvlibreonline.org/agenda/caf.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 25px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -2 0;
+    height: 1em;
+    width: 2em;
+}
+	 
+	 
+.menu > li.ESTE > a:before {
+    background-image: url(https://partidosenvivo.net/flags/kingsleague.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -2 0;
+    height: 1em;
+}	 
+
+.menu > li.FIBA > a:before {
+    background-image: url(https://partidosenvivo.net/flags/fiba.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -2 0;
+    height: 1em;
 }
 
-::-webkit-scrollbar-thumb {
-  background: #eef8fc; 
+.menu > li.TST > a:before {
+    background-image: url(/agenda/tst.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 20px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em 7 0;
+    height: 1em;
 }
 
- /* firefox */
-
-scrollbar-width: thin; 
-scrollbar-color: #141d26 #eef8fc ; 
-</style>
-<style>
-  body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  button {
-  position: relative;
-  padding: 8px 16px; /* Ajusta el padding para hacer el botón más pequeño */
-  border-radius: 7px;
-  border: 1px solid rgb(255, 165, 0);
-  font-size: 12px; /* Ajusta el tamaño de fuente para hacer el botón más pequeño */
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 2px;
-  background: transparent;
-  color: #fff;
-  overflow: hidden;
-  box-shadow: 0 0 0 0 transparent;
-  transition: all 0.2s ease-in;
+.menu > li.MOTOR > a:before {
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/31/15/12/bike-1293078_960_720.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -2 0;
+    height: 1em;
 }
 
-button:hover {
-  background: rgb(255, 165, 0);
-  box-shadow: 0 0 30px 5px rgba(255, 165, 0);
-  transition: all 0.2s ease-out;
+.menu > li.GOLDEN > a:before {
+    background-image: url(https://i.ibb.co/6n9Sqbz/golden.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -2 0;
+    height: 1em;
+}	
+	   
+.menu > li.FIH > a:before {
+    background-image: url(fih.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -2 0;
+    height: 1em;
+}	
+
+.menu > li.HOCKEY > a:before {
+    background-image: url(hcokey.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 23px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em 3px 0;
+    height: 1em;
 }
 
-button:hover::before {
-  animation: sh02 0.5s 0s linear;
-}
-
-button::before {
-  content: '';
-  display: block;
-  width: 0px;
-  height: 86%;
-  position: absolute;
-  top: 7%;
-  left: 0%;
-  opacity: 0;
-  background: #fff;
-  box-shadow: 0 0 50px 30px #fff;
-  transform: skewX(-20deg);
-}
-
-@keyframes sh02 {
-  from {
-    opacity: 0;
-    left: 0%;
-  }
-
-  50% {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    left: 100%;
-  }
-}
-
-button:active {
-  box-shadow: 0 0 0 0 transparent;
-  transition: box-shadow 0.2s ease-in;
-}
-
-.button-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+.menu > li.NFL > a:before {
+    background-image: url(https://i.ibb.co/B2FP7pNk/NFL.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 27px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -1px 0;
+    height: 1em;
 }
 
 
-  .customClipButton {
-    display: inline-block;
-    font-size: 18px;
-    font-weight: bold;
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    background-color: #e74c3c;
-    padding: 12px 24px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.26);
-    margin: 10px;
-  }
 
-  .customClipButton:hover {
-    background-color: #c0392b;
-  }
-
-  .customClipButton:active {
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-  }
-
-  @media only screen and (max-width: 767px) {
-    button {
-      font-size: 14px;
-      padding: 8px 12px;
+.menu > li.ESTE-CLUBS > a:before {
+    background-image: url(este-clubs.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    font-size: 29px;
+    position: absolute;
+    top: 55%;
+    margin: -0.5em -2 0;
+    height: 1em;
+}	  
+	       
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 70%;
     }
 
-    .button-container {
-      flex-direction: column;
-      align-items: center;
+    .menu > li > a:before {
+        height: 0.91em !important; 
+        width: 0.6em !important;
+        left: 45px;
+    }
+    .menu > li.NHL,.WWE,.NBA, .NCAA, a:before {
+        height: 1.0em; 
+        width: 0.7em;
+    }
+.menu > li.UFC> a:before {
+    height: 1em !important;
+    width: 0.7em !important;
+   left: 48px;
     }
 
-    .customClipButton {
-      font-size: 14px;
-      padding: 10px 20px;
+.menu > li.FIFA> a:before {
+  height: 0.7em !important;
+    width: 1.5em !important;
+    left: 34px;
     }
-  }
-      @media only screen and (max-width: 767px) {
-      /* Estilos específicos para dispositivos móviles */
-
-      .twitch {
-        height: 100vh; /* Ocupa toda la altura de la pantalla en dispositivos móviles */
-      }
-
-      .modal {
-        padding: 20px;
-      }
+.menu > li.AFCCHA> a:before {
+    height: 0.9em !important;
+    width: 0.8em !important;
+    left: 47px;
+}
+.menu > li.LC> a:before {
+ height: 0.9em !important;
+    width: 0.7em !important;
+    left: 49px;
     }
-
-    .btn {
-  font-size: 0.8rem; /* Tamaño de fuente más pequeño para dispositivos móviles */
-  padding: 0.8rem 1.5rem; /* Ajuste del relleno para dispositivos móviles */
-  border: none;
-  outline: none;
-  border-radius: 0.4rem;
-  cursor: pointer;
-  text-transform: uppercase;
-  background-color: rgb(14, 14, 26);
-  color: rgb(234, 234, 234);
-  font-weight: 700;
-  transition: 0.6s;
-  box-shadow: 0px 0px 60px #1f4c65;
-  -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
-}
-
-/* Estilos adicionales para dispositivos móviles */
-@media only screen and (max-width: 767px) {
-  .btn {
-    font-size: 0.7rem; /* Tamaño de fuente aún más pequeño para dispositivos móviles */
-    padding: 0.7rem 1.2rem; /* Ajuste del relleno para dispositivos móviles */
-  }
-}
-
-.btn:active {
-  scale: 0.92;
-}
-
-.btn:hover {
-  background: rgb(2, 29, 78);
-  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
-  color: rgb(4, 4, 38);
-}
-
-</style>
-<body class="flex flex-col h-screen justify-between dark:bg-slate-800 dark:text-slate-300 font-sans">
-<div id="navbar"></div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
-<script>document.addEventListener("contextmenu", function(e) {
-    e.preventDefault(); // Evita que aparezca el menú contextual
-});
-</script>
-<script src="https://cdn.jsdelivr.net/npm/console-ban@4.1.0/dist/console-ban.min.js"></script>
-<main class="container mx-auto px-4  max-w-7xl mb-auto">
-<div class="my-3">
-  <div style="display: flex; align-items: center;">
-    <a href="#">
-      <img class="a" src="https://i.ibb.co/XCphYBP/deppng.png" alt="Logo" data-hs-theme-appearance="dark" style="width: 300px; margin-right: 40px" />
-    </a>
+.menu > li.LIB> a:before {
+ height: 0.9em !important;
+    width: 0.7em !important;
+    left: 49px;
+    }
     
-    <!--<img src="https://i.pinimg.com/originals/d3/76/21/d37621a2cfd9fca476096b1b357b7712.gif" alt="GIF" style="width: 100px; height: 100px;" />-->
-  </div>
-  
-  <center>
-    <div>
-        <font size="3.5">
-        <p style="font-family: Arial, Helvetica, sans-serif;">EVENTOS EN VIVO</p>
+.menu > li.MC> a:before {
+ height: 0.9em !important;
+    width: 0.7em !important;
+    left: 49px;
+    }    
+    
+	.menu > li.OSCAR> a:before {
+ height: 0.9em !important;
+    width: 0.7em !important;
+    left: 49px;
+	}
+	
+	.menu > li.OLY> a:before {
+ height: 0.9em !important;
+    width: 0.7em !important;
+    left: 49px;
+	}	
+	
+.menu > li.REC> a:before {
+ height: 0.9em !important;
+    width: 0.7em !important;
+    left: 49px;
+    }
+.menu > li.CHA> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 48px;
+}
 
-    </div>
+.menu > li.UE> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 48px;
+}
 
-  </center>
-  <br>
-
-<div class="grid md:grid-cols-5 gap-3">
- <div class="md:col-span-3 player w-full mx-auto">
-<iframe class="shadow-lg rounded" width="100%" style="aspect-ratio:16/9;margin-bottom:20px" name="iframe" id="streamframe" title="Live Video" frameborder="0" allow="autoplay; encrypted-media" 
-allowfullscreen src="https://topembed.pw/channel/ex7798196" scrolling="no" frameBorder="0" allowfullscreen></iframe>
-
-<p><strong>Opciones:</strong></p>
-<a class="boton" href="#opcion-3" id="document" onclick="document.getElementById('streamframe').src = '//topembed.pw/channel/ex7798196'" style="text-align: left;"><button>OPC 1</button></a><span style="text-align: left;">&nbsp;</span>
-
+.menu > li.UEC> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 48px;
+}
 
 
+.menu > li.SUPERCUPE> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 48px;
+}
 
+
+.menu > li.LC> a:before {
+    height: 29px !important;
+    width: 0.74em !important;
+    left: 43px;
+}	
+
+.menu > li.CAR> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 48px;
+}
+
+.menu > li.ESTE> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+}
+
+.menu > li.AEW> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 48px;
+}
+	
+.menu > li.COSCK> a:before {
+  height: 0.9em !important;
+    width: 0.65em !important;
+    left: 47px;
+    }
+	
+.menu > li.MFP> a:before {
+  height: 0.9em !important;
+    width: 0.65em !important;
+    left: 48px;
+    }	
+
+.menu > li.GOLD> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 48px;
+}
+
+.menu > li.CONCACAF> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 48px;
+}
+
+.menu > li.CONMEBOL> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 48px;
+}
+
+.menu > li.UEFA> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 48px;
+}
+
+.menu > li.FIH> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 44px;
+}
+
+.menu > li.HOCKEY> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 41px;
+}
+
+.menu > li.NFL> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 44px;
+}
+
+.menu > li.ESTE-CLUBS> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 44px;
+}
+
+
+.menu > li.NAT> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 48px;
+}
+
+.menu > li.F1> a:before {
+    height: 0.9em !important;
+    width: 24px !important;
+    left: 35px;
+}
+
+.menu > li.F2> a:before {
+    height: 0.9em !important;
+    width: 0.70em !important;
+    left: 51px;
+}
+	
+.menu > li.F3> a:before {
+    height: 0.9em !important;
+    width: 24px !important;
+    left: 35px;
+}	
+	
+.menu > li.MOTOGP> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 48px;
+}
+	
+.menu > li.INDYCAR> a:before {
+    height: 0.9em !important;
+    width: 1em !important;
+    left: 40px;
+
+}
+
+.menu > li.BKFC> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 48px;
+}
+
+.menu > li.BMX> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 49px;
+}
+	
+.menu > li.BOX> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 49px;
+}
+
+
+.menu > li.MLB> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 49px;
+}	
+
+.menu > li.LMB> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 49px;
+}
+
+.menu > li.CICLISMO> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 49px;
+}
+
+.menu > li.EUROLEAGUE> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 52px;
+}
+	
+.menu > li.RR> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 45px;
+}	
+	
+.menu > li.FIBA> a:before {
+    height: 0.9em !important;
+    width: 0.95em !important;
+    left: 40px;
+}	
+
+.menu > li.TST> a:before {
+    height: 0.9em !important;
+    width: 0.95em !important;
+    left: 40px;
+}	
+	
+	
+.menu > li.CONNAT> a:before {
+    height: 0.9em !important;
+    width: 0.74em !important;
+    left: 54px;
+}
+	
+	.menu > li.PR> a:before {
+  height: 0.9em !important;
+    width: 1.5em !important;
+    left: 40px;
+    font-size: 23px;
+	       }
+	  
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    80% { opacity: 1; }
+    90% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+.blink {
+    animation: blink 2.5s infinite;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: #f14d00;
+}
+
+.black {
+    color: #111311;
+}
+
+.display-none {
+        display: none;
+    }
+
+
+    
+</style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body link="#547484" onload="guardaHorario();dT();" vlink="#547484">
+    <div id="wraper">
+        <ul class="menu">
+<center>
+
+    
+<div class="sombreada_css3">
+<font size=2 face="Helvetica Neue,Helvetica,Arial,sans-serif" color="#FFFFFF">
+<div id='getfecha'/>
+ </div>
+</font>
+</div>
+</center>
+
+
+
+
+<li class="TE"><a href="#">
+ATP Cincinnati Open 2025: Tercera Ronda
+<span class="t">16:00</span></a>
+<ul>
+<li class="subitem1"><a href="https://la14hd.com/vivo/canal.php?stream=espn3" target="_blank">ESPN 3<span>Calidad 720p</span></a></li>
+</ul>
+</li>
+
+<li class="TUR"><a href="#">
+Süper Lig: Trabzonspor vs. Kocaelispor
+<span class="t">19:30</span></a>
+<ul>
+<li class="subitem1"><a href="https://la14hd.com/vivo/canal.php?stream=foxsports2" target="_blank">FOX Sports 2<span>Calidad 720p</span></a></li>
+<li class="subitem1"><a href="https://voodc.com/embed/1/85818b95a58aa084847a8597a088988a8d.html" target="_blank">FOX Sports 2<span>Calidad 720p</span></a></li>
+
+</ul>
+</li>
+
+<li class="POR"><a href="#">
+Primeira Liga: Porto vs. Vitória Guimarães
+<span class="t">20:45</span></a>
+<ul>
+<li class="subitem1"><a href="/eventos/?r=aHR0cHM6Ly9zdHJlYW10cGdsb2JhbC5jb20vZ2xvYmFsMS5waHA/c3RyZWFtPWdvbHR2" target="_blank">GolTV<span>Calidad 720p</span></a></li>
+</ul>
+</li>
+
+<li class="PE"><a href="#">
+Liga 1: Alianza Atlético vs. UTC Cajamarca
+<span class="t">21:00</span></a>
+<ul>
+<li class="subitem1"><a href="/en-vivo/liga1max/" target="_blank">L1MAX<span>Calidad 720p</span></a></li>
+</ul>
+</li>
+
+<li class="AR"><a href="#">
+Liga Profesional: Defensa y Justicia vs. Deportivo Riestra
+<span class="t">23:00</span></a>
+<ul>
+<li class="subitem1"><a href="/en-vivo/espn-premium/" target="_blank">ESPN Premium<span>Calidad 720p</span></a></li>
+</ul>
+</li>
+
+<li class="URU"><a href="#">
+Primera División: Defensor Sporting vs. River Plate
+<span class="t">23:00</span></a>
+<ul>
+<li class="subitem1"><a href="/eventos/?r=aHR0cHM6Ly9zdHJlYW10cGdsb2JhbC5jb20vZ2xvYmFsMS5waHA/c3RyZWFtPWRpc25leTEy" target="_blank">Disney+<span>Calidad 720p</span></a></li>
+<li class="subitem1"><a href="/en-vivo/vtv-plus/" target="_blank">VTV+<span>Calidad 720p</span></a></li>
+<li class="subitem1"><a href="/eventos/?r=aHR0cHM6Ly9zdHJlYW10cGdsb2JhbC5jb20vZ2xvYmFsMS5waHA/c3RyZWFtPWdvbHR2" target="_blank">GolTV<span>Calidad 720p</span></a></li>
+</ul>
+</li>
+
+<li class="AR"><a href="#">
+Primera Nacional: All Boys vs. Patronato
+<span class="t">23:10</span></a>
+<ul>
+<li class="subitem1"><a href="/en-vivo/tyc-sports/" target="_blank">TyC Sports<span>Calidad 720p</span></a></li>
+</ul>
+</li>
+
+<li class="BRA"><a href="#">
+Brasileirão: Juventude vs. Corinthians
+<span class="t">00:00</span></a>
+<ul>
+<li class="subitem1"><a href="/eventos/?r=aHR0cHM6Ly9zdHJlYW10cGdsb2JhbC5jb20vZ2xvYmFsMS5waHA/c3RyZWFtPXByZW1pZXJlMQ==" target="_blank">Premiere 1 BR<span>Calidad 720p</span></a></li>
+</ul>
+</li>
+
+<li class="CH"><a href="#">
+Primera División: Deportes Limache vs. Audax Italiano
+<span class="t">00:00</span></a>
+<ul>
+<li class="subitem1"><a href="/en-vivo/tnt-sports-chile/" target="_blank">TNT Sports Premium Chile<span>Calidad 720p</span></a></li>
+</ul>
+</li>
+
+<li class="COL"><a href="#">
+Primera B: Atlético Huila vs. Atlético Cali
+<span class="t">00:00</span></a>
+<ul>
+<li class="subitem1"><a href="/en-vivo/win-sports-premium/" target="_blank">Win+ Fútbol<span>Calidad 720p</span></a></li>
+</ul>
+</li>
+
+<li class="PE"><a href="#">
+Liga 1: Deportivo Garcilaso vs. Alianza Universidad
+<span class="t">01:00</span></a>
+<ul>
+<li class="subitem1"><a href="/en-vivo/liga1max/" target="_blank">L1MAX<span>Calidad 720p</span></a></li>
+</ul>
+</li>
+
+<li class="AR"><a href="#">
+Primera Nacional: Racing Córdoba vs. Quilmes
+<span class="t">01:10</span></a>
+<ul>
+<li class="subitem1"><a href="/en-vivo/tyc-sports/" target="_blank">TyC Sports<span>Calidad 720p</span></a></li>
+</ul>
+</li>
+
+<li class="COL"><a href="#">
+Liga BetPlay: Boyacá Chicó vs. La Equidad
+<span class="t">02:00</span></a>
+<ul>
+<li class="subitem1"><a href="/en-vivo/win-sports-premium/" target="_blank">Win+ Fútbol<span>Calidad 720p</span></a></li>
+</ul>
+</li>
+
+<li class="MEX"><a href="#">
+Liga MX: León vs. Monterrey
+<span class="t">02:00</span></a>
+<ul>
+<li class="subitem1"><a href="/en-vivo/tudn/" target="_blank">TUDN<span>Calidad 720p</span></a></li>
+</ul>
+</li>
+
+<li class="MEX"><a href="#">
+Liga MX: Juárez vs. Toluca
+<span class="t">04:00</span></a>
+<ul>
+<li class="subitem1"><a href="/en-vivo/fox-deportes/" target="_blank">FOX Deportes<span>Calidad 720p</span></a></li>
+<li class="subitem1"><a href="/eventos/?r=aHR0cHM6Ly9sYTE0aGQuY29tL3Zpdm8vY2FuYWxlcy5waHA/c3RyZWFtPWF6dGVjYTc=" target="_blank">Azteca 7 MX<span>Calidad 720p</span></a></li>
+<li class="subitem1"><a href="/eventos/?r=aHR0cHM6Ly9zdHJlYW10cGdsb2JhbC5jb20vZ2xvYmFsMS5waHA/c3RyZWFtPWF6dGVjYV9kZXBvcnRlcw==" target="_blank">Azteca Deportes MX<span>Calidad 720p</span></a></li>
+</ul>
+</li>
+
+<li class="MEX"><a href="#">
+Liga MX: Atl. San Luis vs. Cruz Azul
+<span class="t">04:05</span></a>
+<ul>
+<li class="subitem1"><a href="/en-vivo/espn-2-mx/" target="_blank">ESPN 2 MX<span>Calidad 720p</span></a></li>
+<li class="subitem1"><a href="/en-vivo/tudn/" target="_blank">TUDN<span>Calidad 720p</span></a></li>
+</ul>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+</script>
+
+<!-- java  deportes on plus -->
+
+
+    <script type="text/javascript">
+        $(function () {
+            var menu_ul = $(".menu > li > ul"),
+                menu_a = $(".menu > li > a");
+
+            menu_ul.hide();
+
+            menu_a.click(function (e) {
+                e.preventDefault();
+                if (!$(this).hasClass("active")) {
+                    menu_a.removeClass("active");
+                    menu_ul.filter(":visible").slideUp("fast");
+                    $(this).addClass("active").next().stop(true, true).slideDown("fast");
+                } else {
+                    $(this).removeClass("active");
+                    $(this).next().stop(true, true).slideUp("fast");
+                }
+            });
+        });
+
+
+
+        function isMobileDevice() {
+            return /Mobi|Android|iPhone|iPad|iPod/.test(navigator.userAgent);
+        }
+
+        var pcLinks = document.querySelectorAll('.pc');
+
+        if (isMobileDevice()) {
+            pcLinks.forEach(function (link) {
+                link.style.display = 'none';
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            var links = document.querySelectorAll('.subitem1 .link');
+
+            links.forEach(function (link) {
+                if (link.getAttribute('href') === '/eventos/?r=') {
+                    link.removeAttribute('href');
+                    link.onclick = function () {
+                        alert('El enlace no está listo aún.');
+                        return false;
+                    };
+                }
+            });
+        });
+
+    </script>
+
+    <script>
+        function popUp(URL, ancho, alto) {
+            window.open(URL, '_blank', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=1,width=' + ancho + ',height=' + alto);
+        }
+        function popUpscroll(URL, ancho, alto) {
+            window.open(URL, '_blank', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=1,width=' + ancho + ',height=' + alto);
+        }
+        var mi_array = null;
+        var globalhuso = null;
+        var globalformato = null;
+        function guardaHorario() {
+            mi_array = new Array();
+            var ie = (document.all) ? true : false;
+            var elements = (ie) ? document.all : document.getElementsByTagName('span');
+            for (i = 0; i < elements.length; i++) {
+                if (elements[i].className == 't') {
+                    var a = elements[i].innerHTML;
+                    var b = toDate(a, "h:m");
+                    mi_array[i] = b;
+                }
+            }
+            var hoy = new Date();
+            globalhuso = hoy.getTimezoneOffset() * (-1);
+            var formato = formatoRegion(globalhuso);
+            horaHuso(hoy.getTimezoneOffset() * (-1), formato);
+            actualizaRadioFormato(formato);
+        }
+        function actualizaRadioFormato(formato) {
+            var ie = (document.all) ? true : false;
+            var radios = (ie) ? document.all : document.getElementsByTagName('input');
+            for (i = 0; i < radios.length; i++) {
+                if (radios[i].name == 'formato') {
+                    if (radios[i].value == formato) {
+                        radios[i].checked = true;
+                    }
+                }
+            }
+        }
+        function formatoRegion(huso) {
+            var formato = "24H";
+            if ((huso == 600) || (huso == 570) || (huso == -300) || (huso == -420) || (huso == -480) || (huso == -540) || (huso == -600) || (huso == -660)) {
+                formato = "AMPM";
+            }
+            return formato;
+        }
+        function horaHuso(huso, formato) {
+            if (globalhuso != huso) {
+                globalhuso = huso;
+                formato = formatoRegion(huso);
+                actualizaRadioFormato(formato);
+            }
+            globalformato = formato;
+            var ie = (document.all) ? true : false;
+            var elements = (ie) ? document.all : document.getElementsByTagName('span');
+            for (i = 0; i < elements.length; i++) {
+                if (elements[i].className == 't') {
+                    var b = new Date(mi_array[i]);
+                    b.setMinutes(b.getMinutes() - (60 - huso));
+                    if (formato == "AMPM") {
+                        elements[i].innerHTML = formatoAMPM(b);
+                    } else {
+                        elements[i].innerHTML = formato24h(b);
+                    }
+                } else if (elements[i].className == 'husohorario') {
+                    var mistring = huso / 60;
+                    mistring = '' + huso / 60;
+                    var mas = '\+';
+                    if (mistring.match(/\-/)) {
+                        mas = ''
+                    }
+                    elements[i].innerHTML = 'UTC/GMT ' + mas + mistring;
+                }
+            }
+        }
+        function toDate(dStr, format) {
+            var now = new Date();
+            if (format == "h:m") {
+                now.setHours(dStr.substr(0, dStr.indexOf(":")));
+                now.setMinutes(dStr.substr(dStr.indexOf(":") + 1));
+                now.setSeconds(0);
+                return now;
+            }
+            return "Invalid Format";
+        }
+        function formatoAMPM(dia) {
+            var now = dia;
+            var hour = now.getHours();
+            var minute = now.getMinutes();
+            var ap = "am";
+            if (hour > 11) {
+                ap = "pm";
+            }
+            if (hour > 12) {
+                hour = hour - 12;
+            }
+            if (hour == 0) {
+                hour = 12;
+            }
+            if (hour < 10) {
+                hour = "" + hour;
+            }
+            if (minute < 10) {
+                minute = "0" + minute;
+            }
+            var timeString = hour + ':' + minute + "" + ap;
+            return timeString;
+        }
+        function formato24h(dia) {
+            var hours = dia.getHours()
+            var minutes = dia.getMinutes()
+            if (hours < 10) {
+                hours = "0" + hours;
+            }
+            if (minutes < 10) {
+                minutes = "0" + minutes;
+            }
+            timeString = hours + ":" + minutes;
+            return timeString;
+        }
+        var fecha = new Date();
+        var husodos = fecha.getTimezoneOffset();
+        var husotres = husodos * (-1000) * 60;
+        function tS() {
+            x = new Date(tN().getUTCFullYear(), tN().getUTCMonth(), tN().getUTCDate(), tN().getUTCHours(), tN().getUTCMinutes(), tN().getUTCSeconds());
+            x.setTime(x.getTime() + husotres);
+            return x;
+        }
+        function tN() {
+            return new Date();
+        }
+        function lZ(x) {
+            return (x > 9) ? x : '0' + x;
+        }
+        function tH(x) {
+            if (x == 0) {
+                x = 12;
+            }
+            return (x > 12) ? x -= 12 : x;
+        }
+        function dT() {
+            document.getElementById('tP').innerHTML = eval(oT);
+            setTimeout('dT()', 1000);
+        }
+        function aP(x) {
+            return (x > 11) ? 'pm' : 'am';
+        }
+        if ((husodos == '-600') || (husodos == '-570') || (husodos == 300) || (husodos == 420) || (husodos == 480) || (husodos == 540) || (husodos == 600) || (husodos == 660)) {
+            var oT = "tH(tS().getHours())+':'+lZ(tS().getMinutes())+':'+lZ(tS().getSeconds())+aP(tS().getHours())";
+        } else {
+            var oT = "lZ(tS().getHours())+':'+lZ(tS().getMinutes())+':'+lZ(tS().getSeconds())";
+        }
+        var table = function () {
+            function sorter(n) {
+                this.n = n;
+                this.t;
+                this.b;
+                this.r;
+                this.d;
+                this.p;
+                this.w;
+                this.a = [];
+                this.l = 0
+            }
+            sorter.prototype.init = function (t, f) {
+                this.t = document.getElementById(t);
+                this.b = this.t.getElementsByTagName('tbody')[0];
+                this.r = this.b.rows;
+                var l = this.r.length;
+                for (var i = 0; i < l; i++) {
+                    if (i == 0) {
+                        var c = this.r[i].cells;
+                        this.w = c.length;
+                        for (var x = 0; x < this.w; x++) {
+                            if (c[x].className != 'nosort') {
+                                c[x].className = 'head';
+                                c[x].onclick = new Function(this.n + '.work(this.cellIndex)')
+                            }
+                        }
+                    } else {
+                        this.a[i - 1] = {};
+                        this.l++;
+                    }
+                }
+                if (f != null) {
+                    var a = new Function(this.n + '.work(' + f + ')');
+                    a()
+                }
+            }
+            sorter.prototype.work = function (y) {
+                this.b = this.t.getElementsByTagName('tbody')[0];
+                this.r = this.b.rows;
+                var x = this.r[0].cells[y], i;
+                for (i = 0; i < this.l; i++) {
+                    this.a[i].o = i + 1;
+                    var v = this.r[i + 1].cells[y].firstChild;
+                    this.a[i].value = (v != null) ? v.nodeValue : ''
+                }
+                for (i = 0; i < this.w; i++) {
+                    var c = this.r[0].cells[i];
+                    if (c.className != 'nosort') {
+                        c.className = 'head'
+                    }
+                }
+                if (this.p == y) {
+                    this.a.reverse();
+                    x.className = (this.d) ? 'asc' : 'desc';
+                    this.d = (this.d) ? false : true
+                } else {
+                    this.p = y;
+                    this.a.sort(compare);
+                    x.className = 'asc';
+                    this.d = false
+                }
+                var n = document.createElement('tbody');
+                n.appendChild(this.r[0]);
+                for (i = 0; i < this.l; i++) {
+                    var r = this.r[this.a[i].o - 1].cloneNode(true);
+                    n.appendChild(r);
+                    r.className = (i % 2 == 0) ? 'even' : 'odd'
+                }
+                this.t.replaceChild(n, this.b)
+            }
+            function compare(f, c) {
+                f = f.value,
+                    c = c.value;
+                var i = parseFloat(f.replace(/(\$|\,)/g, ''))
+                    , n = parseFloat(c.replace(/(\$|\,)/g, ''));
+                if (!isNaN(i) && !isNaN(n)) {
+                    f = i,
+                        c = n
+                }
+                return (f < c ? 1 : (f > c ? -1 : 0))
+            }
+            return {
+                sorter: sorter
+            }
+        }();
+
+    </script>
+
+
+<script>
+  var meses = new Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+
+  var diasSemana = new Array("Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado");
+  var f = new Date();
+  document.getElementById("getfecha").innerHTML = diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear();
+</script>
+
+
+
+
+
+
+</body>
 </html>
-
-

@@ -202,7 +202,7 @@ http://181.115.237.3:9560/play/a02t/index.m3u8
 
 
 #EXTINF:-1 tvg-id="44" tvg-name="ESPN 2" tvg-logo="https://i.ibb.co/gZH3yb8K/ESPN2.png" group-title="Nacionales", ESPN 2
-http://181.115.237.3:9560/play/a01a/index.m3u8
+http://181.118.158.103:8000/play/a039/index.m3u8?hls
 
 
 
@@ -272,6 +272,7 @@ https://d1hcj42s7cseno.cloudfront.net/playlist.m3u8
 https://d25v414d53fogv.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w240-h480-rw" group-title="General",SONY SHARK TANK
 https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w240-h480-rw
+
 
 
 

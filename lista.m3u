@@ -14,5 +14,15 @@ https://seo.tv.bo/hls/TVOFF.m3u8
 
 
 
+#EXTINF:-1 tvg-id="39" tvg-name="RTP" tvg-logo="https://i.ibb.co/vxSj77t7/RTES.pngg" group-title="Nacionales", RTP
+https://rt-esp.rttv.com/dvr/rtesp/playlist_800Kb.m3u8
+
+
+
+
+
+
+
 Pegas esto y le pones lista.m3u
+
 

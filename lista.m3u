@@ -15,8 +15,7 @@ https://stv2.boliviaplay.com.bo/hls/0/stream.m3u8
 https://cdn.digital.com.bo/__cl/cg:sworigin2/__c/BOLIVISION/__op/hls-default/__f/index.m3u8
 
 #EXTINF:-1 tvg-id="38" tvg-name="Bolivision LP" tvg-logo="https://i.ibb.co/PZ1ctHG6/BOLIVISIONOF.png" group-title="Nacionales", Bolivision LP
-https://d2qsan2ut81n2k.cloudfront.net/live/20446f64-67d8-4100-8c4b-20a759a8e919/ts:abr.m3u8
-
+http://181.115.237.3:9560/play/a00b/index.m3u8
 
 
 #EXTINF:-1 tvg-id="39" tvg-name="UNITEL HD" tvg-logo="https://canales.asplurtv.com/logo_unitel.png" group-title="Nacionales", Unitel LPZ
@@ -25,6 +24,13 @@ https://mdstrm.com/live-stream-playlist/6928b14aaa768aad947bf65d.m3u8
 
 #EXTINF:-1 tvg-id="40" tvg-name="UNITEL HD" tvg-logo="https://i.ibb.co/Z11npYR0/UNITELOF.png" group-title="Nacionales", Unitel SCZ
 https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8
+
+#EXTINF:-1 tvg-id="40" tvg-name="UNITEL HD" tvg-logo="https://i.ibb.co/Z11npYR0/UNITELOF.png" group-title="Nacionales", Unitel CBA
+https://mdstrm.com/live-stream-playlist/691f2aeb5ac95d286c49af8d.m3u8
+
+
+
+
 
 #EXTINF:-1 tvg-id="41" tvg-name="Vos HD" tvg-logo="https://i.ibb.co/8nKh5B7L/REDUNOOF.png" group-title="Nacionales", Red Uno SCZ
 https://streamer03.digital.com.bo/2ap337/__cl/cg:sworigin2/__c/REDUNO/__op/hls-default/__f/index.m3u8
@@ -166,6 +172,7 @@ https://icecast.online/hls/imperial25/stream.m3u8
 
 
 Pegas esto y le pones lista.m3u
+
 
 
 

@@ -18,7 +18,7 @@ https://cdn.digital.com.bo/__cl/cg:sworigin2/__c/BOLIVISION/__op/hls-default/__f
 http://181.115.237.3:9560/play/a00b/index.m3u8
 
 
-#EXTINF:-1 tvg-id="38" tvg-name="Bolivia Tv" tvg-logo="https://i.ibb.co/Nd3rPqHN/btv-nuevo.png" group-title="Nacionales", Bolivia Tv
+#EXTINF:-1 tvg-id="38" tvg-name="Bolivia Tv" tvg-logo="https://i.ibb.co/TqHk2RR6/btv-nuevo.png" group-title="Nacionales", Bolivia Tv
 http://181.115.237.3:9560/play/a006/index.m3u8
 
 
@@ -168,6 +168,7 @@ https://59d39900ebfb8.streamlock.net:443/sigloxxi/sigloxxi/playlist.m3u8
 
 #EXTINF:-1 tvg-id="44" tvg-name="Imperial" tvg-logo="https://canales.asplurtv.com/logo_imperial.png" group-title="Nacionales", Imperial
 https://icecast.online/hls/imperial25/stream.m3u8
+
 
 
 

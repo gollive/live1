@@ -6,6 +6,11 @@ https://normielista.stream/sky_sports_mx_1/tracks-v1a1/mono.m3u8
 
 
 
+#EXTINF:-1 tvg-id="44" tvg-name="HTV MUSIC" tvg-logo="https://sportal365images.com/process/smp-images-production/record.mx/20012026/fadf5089-fc0d-4f89-bd3d-6a6f58036725.jpg" group-title="Nacionales", America Tv
+https://live-evg20.tv360.bitel.com.pe/bitel/America-UDP_abr/bitel/America-udp_720p/chunks.m3u8
+
+
+
 #EXTINF:-1 tvg-id="44" tvg-name="HTV MUSIC" tvg-logo="https://i.ibb.co/9jLkyrj/HTVOF.png" group-title="Nacionales", HTV MUSIC
 https://cablered.iptvperu.tv:1936/cablered/HTV/playlist.m3u8
 
@@ -177,7 +182,7 @@ https://icecast.online/hls/imperial25/stream.m3u8
 
 
 #EXTINF:-1 tvg-id="44" tvg-name=" America Tv" tvg-logo="https://i.ibb.co/TM6hCDYV/AMERICA2.png" group-title="Nacionales", America Tv
-https://cablered.iptvperu.tv:1936/transcoder/america_t2.stream/playlist.m3u8
+https://live-evg20.tv360.bitel.com.pe/bitel/America-UDP_abr/bitel/America-udp_720p/chunks.m3u8
 
 
 #EXTINF:-1 tvg-id="44" tvg-name=" Latina" tvg-logo="https://i.ibb.co/21P9QNBL/LATINAOF.png" group-title="Nacionales", Latina
@@ -282,6 +287,7 @@ https://d1hcj42s7cseno.cloudfront.net/playlist.m3u8
 https://d25v414d53fogv.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w240-h480-rw" group-title="General",SONY SHARK TANK
 https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w240-h480-rw
+
 
 
 

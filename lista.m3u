@@ -34,9 +34,16 @@ https://streamer03.digital.com.bo/2ap337/__cl/cg:sworigin2/__c/REDUNO/__op/hls-d
 
 
 
-#EXTINF:-1 tvg-id="41" tvg-name="Vos HD" tvg-logo="https://i.ibb.co/8nKh5B7L/REDUNOOF.png" group-title="Nacionales", Red Uno SCZ
+#EXTINF:-1 tvg-id="42" tvg-name="Vos HD" tvg-logo="https://i.ibb.co/8nKh5B7L/REDUNOOF.png" group-title="Nacionales", Red Uno SCZ
 https://streamer03.digital.com.bo/2ap337/__cl/cg:sworigin2/__c/REDUNO/__op/hls-default/__f/index.m3u8
 
+
+#EXTINF:-1 tvg-id="43" tvg-name="Vos HD" tvg-logo="https://canales.asplurtv.com/logo_gigavision.png" group-title="Nacionales", GIGAVISION
+https://cdn.digital.com.bo/__cl/cg:sworigin2/__c/GIGAVISION/__op/hls-default/__f/index.m3u8
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="Vos HD" tvg-logo="https://i.ibb.co/PHC62Xf/images.png" group-title="Nacionales", DTV HD
+https://cdn.digital.com.bo/__cl/cg:sworigin2/__c/DTV/__op/hls-default/__f/index.m3u8
 
 
 
@@ -45,6 +52,7 @@ https://streamer03.digital.com.bo/2ap337/__cl/cg:sworigin2/__c/REDUNO/__op/hls-d
 
 
 Pegas esto y le pones lista.m3u
+
 
 
 

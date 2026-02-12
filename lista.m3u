@@ -9,17 +9,14 @@ https://cdn.digital.com.bo/__cl/cg:sworigin2/__c/ATB/__op/hls-default/__f/index.
 #EXTINF:-1 tvg-id="34" tvg-name="Vos HD" tvg-logo="https://canales.asplurtv.com/logo_amitel.png" group-title="Nacionales", Amitel 
 https://stv2.boliviaplay.com.bo/hls/0/stream.m3u8
 
-#EXTINF:-1 tvg-id="35" tvg-name="Vos HD" tvg-logo="https://i.ibb.co/BVjLCTzN/VOSTVOF.png" group-title="Nacionales", Vos HD
-https://59d39900ebfb8.streamlock.net/vostv/vostv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="36" tvg-name="Estrella" tvg-logo="https://canales.asplurtv.com/logo_teleestrella.png" group-title="Nacionales", Estrella
-https://59d39900ebfb8.streamlock.net:443/teleestrella/teleestrella/playlist.m3u8
 
-#EXTINF:-1 tvg-id="37" tvg-name="FAP TV" tvg-logo="https://canales.asplurtv.com/logo_faptv.png" group-title="Nacionales", FAP TV
-https://lv.andeshost.com/hls/faptv/index.m3u8
+#EXTINF:-1 tvg-id="38" tvg-name="Bolivision SC" tvg-logo="https://i.ibb.co/PZ1ctHG6/BOLIVISIONOF.png" group-title="Nacionales", Bolivision SC
+https://cdn.digital.com.bo/__cl/cg:sworigin2/__c/BOLIVISION/__op/hls-default/__f/index.m3u8
 
-#EXTINF:-1 tvg-id="38" tvg-name="OFF TV" tvg-logo="https://redtvoff.com.bo/wp-content/uploads/2025/01/TVOFF-Logotipo-200x113.png" group-title="Nacionales", OFF TV
-https://seo.tv.bo/hls/TVOFF.m3u8
+#EXTINF:-1 tvg-id="38" tvg-name="Bolivision LP" tvg-logo="https://i.ibb.co/PZ1ctHG6/BOLIVISIONOF.png" group-title="Nacionales", Bolivision LP
+https://d2qsan2ut81n2k.cloudfront.net/live/20446f64-67d8-4100-8c4b-20a759a8e919/ts:abr.m3u8
+
 
 
 #EXTINF:-1 tvg-id="39" tvg-name="UNITEL HD" tvg-logo="https://canales.asplurtv.com/logo_unitel.png" group-title="Nacionales", Unitel LPZ
@@ -56,6 +53,112 @@ https://owncloud1692001.fasthostunlimited.com/hls/0/stream.m3u8?cachebust=836213
 
 
 
+#EXTINF:-1 tvg-id="44" tvg-name="Unifranz" tvg-logo="https://canales.asplurtv.com/logo_unifranz.png" group-title="Nacionales", Unifranz
+https://eu1.servers10.com:8081/8010/index.m3u8
+
+
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="Unifranz" tvg-logo="https://canales.asplurtv.com/logo_unifranz.png" group-title="Nacionales", Unifranz
+https://eu1.servers10.com:8081/8010/index.m3u8
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="PAT" tvg-logo="https://canales.asplurtv.com/logo_pat.png" group-title="Nacionales", PAT
+https://cdn.digital.com.bo/__cl/cg:sworigin2/__c/PAT/__op/hls-default/__f/index.m3u8
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="PAT" tvg-logo="https://canales.asplurtv.com/logo_pat.png" group-title="Nacionales", PAT
+https://csc-axs-edge01.sensa.com.ar/bpk-tv/PAT/default/index.mpd
+
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="Cadena A" tvg-logo="https://i.ibb.co/nsWXPY3Y/CADENAHD.png" group-title="Nacionales", Cadena A
+https://cdn.digital.com.bo/__cl/cg:sworigin2/__c/CADENAA/__op/hls-default/__f/index.m3u8
+
+
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="Latina" tvg-logo="https://canales.asplurtv.com/logo_latina.png" group-title="Nacionales", Latina
+https://castv10.plugstreaming.com:19360/redtv/redtv.m3u8
+
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="Ceacom" tvg-logo="https://canales.asplurtv.com/logo_ceacom.png" group-title="Nacionales", Ceacom
+https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8
+
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="F10" tvg-logo="https://canales.asplurtv.com/logo_fdiez.png" group-title="Nacionales", F10
+https://tv2.bitstreaming.net:3235/multi_live/play_720.m3u8
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="UPEA" tvg-logo="https://canales.asplurtv.com/logo_upeatv.png" group-title="Nacionales", UPEA
+https://tvstream.upea.bo/hls/oSs0jSWumTFIIVY97559.m3u8
+
+#EXTINF:-1 tvg-id="44" tvg-name="UMSA" tvg-logo="https://canales.asplurtv.com/logo_tvulpz.png" group-title="Nacionales", UMSA
+https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="Univalle" tvg-logo="https://canales.asplurtv.com/logo_univalle.png" group-title="Nacionales", Univalle
+https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 tvg-id="44" tvg-name="CTV" tvg-logo="https://i.ibb.co/ZpR6Qck6/CTVOF.png" group-title="Nacionales", CTV
+https://streaming.ctvbolivia.com/hlsweb/ctv.m3u8
+
+
+#EXTINF:-1 tvg-id="44" tvg-name=" Palenque" tvg-logo="https://canales.asplurtv.com/logo_palenque.png" group-title="Nacionales", Palenque
+https://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="PTV" tvg-logo="https://canales.asplurtv.com/logo_ptv.png" group-title="Nacionales", PTV
+https://live20.bozztv.com/akamaissh101/ssh101/ptvonline/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="SHOW" tvg-logo="https://i.ibb.co/jk44n7JH/TVSHOW.png" group-title="Nacionales", SHOW
+http://tv.istbolivia.com:1935/tvshow/tvshow/.m3u8
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="NEO" tvg-logo="https://i.ibb.co/rfk7xHQr/NEOTV.png" group-title="Nacionales", NEO
+https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="FTV" tvg-logo="https://i.ibb.co/gb4fRLkx/FTV.png" group-title="Nacionales", FTV
+https://master.tucableip.com/ftvhd/tracks-v1a1/mono.ts.m3u8
+
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="MEGA" tvg-logo="https://i.ibb.co/gb4fRLkx/FTV.png" group-title="Nacionales", MEGA
+https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="35" tvg-name="Vos HD" tvg-logo="https://i.ibb.co/BVjLCTzN/VOSTVOF.png" group-title="Nacionales", Vos HD
+https://59d39900ebfb8.streamlock.net/vostv/vostv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="36" tvg-name="Estrella" tvg-logo="https://canales.asplurtv.com/logo_teleestrella.png" group-title="Nacionales", Estrella
+https://59d39900ebfb8.streamlock.net:443/teleestrella/teleestrella/playlist.m3u8
+
+#EXTINF:-1 tvg-id="37" tvg-name="FAP TV" tvg-logo="https://canales.asplurtv.com/logo_faptv.png" group-title="Nacionales", FAP TV
+https://lv.andeshost.com/hls/faptv/index.m3u8
+
+#EXTINF:-1 tvg-id="38" tvg-name="OFF TV" tvg-logo="https://redtvoff.com.bo/wp-content/uploads/2025/01/TVOFF-Logotipo-200x113.png" group-title="Nacionales", OFF TV
+https://seo.tv.bo/hls/TVOFF.m3u8
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="Imperial" tvg-logo="https://canales.asplurtv.com/logo_imperial.png" group-title="Nacionales", Imperial
+https://icecast.online/hls/imperial25/stream.m3u8
+
+
+
+
+
+
+
+
 
 
 
@@ -63,6 +166,7 @@ https://owncloud1692001.fasthostunlimited.com/hls/0/stream.m3u8?cachebust=836213
 
 
 Pegas esto y le pones lista.m3u
+
 
 
 

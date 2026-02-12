@@ -185,7 +185,7 @@ https://icecast.online/hls/imperial25/stream.m3u8
 
 
 #EXTINF:-1 tvg-id="44" tvg-name=" America Tv" tvg-logo="https://i.ibb.co/TM6hCDYV/AMERICA2.png" group-title="Nacionales", America Tv
-https://live-evg20.tv360.bitel.com.pe/bitel/America-UDP_abr/bitel/America-udp_720p/chunks.m3u8
+http://191.97.61.32:8000/play/a020/index.m3u8?hls
 
 
 #EXTINF:-1 tvg-id="44" tvg-name=" Latina" tvg-logo="https://i.ibb.co/21P9QNBL/LATINAOF.png" group-title="Nacionales", Latina
@@ -290,6 +290,7 @@ https://d1hcj42s7cseno.cloudfront.net/playlist.m3u8
 https://d25v414d53fogv.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w240-h480-rw" group-title="General",SONY SHARK TANK
 https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w240-h480-rw
+
 
 
 

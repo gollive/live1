@@ -1,9 +1,7 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="44" tvg-name="HTV MUSIC" tvg-logo="https://i.ibb.co/9jLkyrj/HTVOF.png" group-title="Nacionales", HTV MUSIC
-https://cablered.iptvperu.tv:1936/cablered/HTV/playlist.m3u8
-
-
+#EXTINF:-1 tvg-id="44" tvg-name="Zona Sur" tvg-logo="https://zonasurtv.cl/wp-content/uploads/2025/06/logo-zona-sur-tv.webp" group-title="Nacionales", Zona Sur
+https://5ff3d9babae13.streamlock.net:443/tvtumqsfdn/tvtumqsfdn/playlist.m3u8
 
 #EXTINF:-1 tvg-id="33" tvg-name="Vos HD" tvg-logo="https://i.ibb.co/r2ZxLX9x/ATB.png" group-title="Nacionales", ATB 
 https://cdn.digital.com.bo/__cl/cg:sworigin2/__c/ATB/__op/hls-default/__f/index.m3u8
@@ -171,6 +169,41 @@ https://59d39900ebfb8.streamlock.net:443/sigloxxi/sigloxxi/playlist.m3u8
 https://icecast.online/hls/imperial25/stream.m3u8
 
 
+#EXTINF:-1 tvg-id="44" tvg-name=" America Tv" tvg-logo="https://i.ibb.co/TM6hCDYV/AMERICA2.png" group-title="Nacionales", America Tv
+https://cablered.iptvperu.tv:1936/transcoder/america_t2.stream/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="44" tvg-name=" Latina" tvg-logo="https://i.ibb.co/21P9QNBL/LATINAOF.png" group-title="Nacionales", Latina
+https://jireh-1-hls-video-ar-isp.dps.live/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latina/latina.smil/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="44" tvg-name=" Latina" tvg-logo="https://i.ibb.co/21P9QNBL/LATINAOF.png" group-title="Nacionales", Latina Noticias
+https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latinanoticias/latinanoticias.smil/playlist.m3u8?did=
+
+
+
+#EXTINF:-1 tvg-id="44" tvg-name=" Latina" tvg-logo="https://i.ibb.co/21P9QNBL/LATINAOF.png" group-title="Nacionales", Latina  Clasicos
+https://redirector.rudo.video/hls-video/plus226/latina2/latina2.smil/playlist.m3u8?did=
+
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="Tv Perú" tvg-logo="https://www.tvperu.gob.pe/sites/all/themes/stability/images/logo.png" group-title="Nacionales", Tv Perú
+https://cdnhd.iblups.com/hls/777b4d4cc0984575a7d14f6ee57dbcaf7.m3u8
+
+
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="Karibeña" tvg-logo="https://i.ibb.co/mCgBqMsN/KARIBE-A.png" group-title="Nacionales", Karibeña
+https://live-player.egostreaming.pe/karibenatv_685a-pe-a5676-584412/tracks-v1a1/mono.ts.m3u8
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="CHV (Chile)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ef/Logo_CHV_2015.png" group-title="Nacionales", CHV (Chile)
+https://mdstrm.com/live-stream-playlist/6491ced935a5833c47dd7f41.m3u8?PlaylistM3UCL
+
+#EXTINF:-1 tvg-logo="https://gia.tv/images/m3u-default.png" group-title="General",Next HD 
+https://live.enhdtv.com:19360/nexthd/nexthd.m3u8
+
+
 
 
 
@@ -195,6 +228,23 @@ https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5
 
 #EXTINF:-1 tvg-id="44" tvg-name="TeleSur" tvg-logo="https://www.telesurtv.net/content/themes/telesur/dist/assets/img/only-logo.png" group-title="Nacionales", TeleSur
 https://mblesmain01.telesur.ultrabase.net/mbliveMain/480p/playlist.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

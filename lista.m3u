@@ -22,11 +22,11 @@ https://lv.andeshost.com/hls/faptv/index.m3u8
 https://seo.tv.bo/hls/TVOFF.m3u8
 
 
-#EXTINF:-1 tvg-id="39" tvg-name="Vos HD" tvg-logo="https://canales.asplurtv.com/logo_unitel.png" group-title="Nacionales", Unitel LPZ
+#EXTINF:-1 tvg-id="39" tvg-name="UNITEL HD" tvg-logo="https://canales.asplurtv.com/logo_unitel.png" group-title="Nacionales", Unitel LPZ
 https://mdstrm.com/live-stream-playlist/6928b14aaa768aad947bf65d.m3u8
 
 
-#EXTINF:-1 tvg-id="40" tvg-name="Vos HD" tvg-logo="https://i.ibb.co/Z11npYR0/UNITELOF.png" group-title="Nacionales", Unitel SCZ
+#EXTINF:-1 tvg-id="40" tvg-name="UNITEL HD" tvg-logo="https://i.ibb.co/Z11npYR0/UNITELOF.png" group-title="Nacionales", Unitel SCZ
 https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8
 
 #EXTINF:-1 tvg-id="41" tvg-name="Vos HD" tvg-logo="https://i.ibb.co/8nKh5B7L/REDUNOOF.png" group-title="Nacionales", Red Uno SCZ
@@ -34,16 +34,27 @@ https://streamer03.digital.com.bo/2ap337/__cl/cg:sworigin2/__c/REDUNO/__op/hls-d
 
 
 
-#EXTINF:-1 tvg-id="42" tvg-name="Vos HD" tvg-logo="https://i.ibb.co/8nKh5B7L/REDUNOOF.png" group-title="Nacionales", Red Uno SCZ
-https://streamer03.digital.com.bo/2ap337/__cl/cg:sworigin2/__c/REDUNO/__op/hls-default/__f/index.m3u8
+#EXTINF:-1 tvg-id="42" tvg-name="RTP HD" tvg-logo="https://i.ibb.co/rKgL6DC1/Rtp.png" group-title="Nacionales", RTP
+https://rtp.noxun.net/hls720/stream3.m3u8
 
 
-#EXTINF:-1 tvg-id="43" tvg-name="Vos HD" tvg-logo="https://canales.asplurtv.com/logo_gigavision.png" group-title="Nacionales", GIGAVISION
+
+#EXTINF:-1 tvg-id="43" tvg-name="GIGAVISION HD" tvg-logo="https://canales.asplurtv.com/logo_gigavision.png" group-title="Nacionales", GIGAVISION
 https://cdn.digital.com.bo/__cl/cg:sworigin2/__c/GIGAVISION/__op/hls-default/__f/index.m3u8
 
 
-#EXTINF:-1 tvg-id="44" tvg-name="Vos HD" tvg-logo="https://i.ibb.co/PHC62Xf/images.png" group-title="Nacionales", DTV HD
+#EXTINF:-1 tvg-id="44" tvg-name="DTV" tvg-logo="https://i.ibb.co/PHC62Xf/images.png" group-title="Nacionales", DTV HD
 https://cdn.digital.com.bo/__cl/cg:sworigin2/__c/DTV/__op/hls-default/__f/index.m3u8
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="Zuraca " tvg-logo="https://canales.asplurtv.com/logo_ztv.png" group-title="Nacionales", Zuraca TV
+https://tv3.bitstreaming.net:3680/live/zuracatvlive.m3u8
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="Cinerama" tvg-logo="https://canales.asplurtv.com/logo_cinerama.png" group-title="Nacionales", Cinerama
+https://owncloud1692001.fasthostunlimited.com/hls/0/stream.m3u8?cachebust=836213
+
+
 
 
 
@@ -52,6 +63,7 @@ https://cdn.digital.com.bo/__cl/cg:sworigin2/__c/DTV/__op/hls-default/__f/index.
 
 
 Pegas esto y le pones lista.m3u
+
 
 
 

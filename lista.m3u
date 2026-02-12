@@ -211,8 +211,12 @@ http://181.118.158.103:8000/play/a039/index.m3u8?hls
 http://181.118.158.103:8000/play/a03a/index.m3u8?hls
 
 
+#EXTINF:-1 tvg-id="44" tvg-name="Liga 1 Max" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b2/Liga1_%28Per%C3%BA%29_logo.png" group-title="Nacionales", Liga 1 Max
+http://38.187.2.124:8000/play/a067/index.m3u8?hls
+
+
 #EXTINF:-1 tvg-id="44" tvg-name="TL Novelas" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/62/Tlnovelas_logo_2021.png" group-title="Nacionales", TL Novelas
-http://38.187.2.124:8000/play/a0xy/index.m3u8?hls
+http://38.187.2.124:8000/play/a06m/index.m3u8?hls
 
 
 #EXTINF:-1 tvg-id="44" tvg-name="Karibeña" tvg-logo="https://i.ibb.co/mCgBqMsN/KARIBE-A.png" group-title="Nacionales", Karibeña
@@ -275,6 +279,7 @@ https://d1hcj42s7cseno.cloudfront.net/playlist.m3u8
 https://d25v414d53fogv.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w240-h480-rw" group-title="General",SONY SHARK TANK
 https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w240-h480-rw
+
 
 
 

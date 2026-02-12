@@ -1,5 +1,8 @@
 #EXTM3U
 
+
+
+
 #EXTINF:-1 tvg-id="44" tvg-name="HTV MUSIC" tvg-logo="https://i.ibb.co/9jLkyrj/HTVOF.png" group-title="Nacionales", HTV MUSIC
 https://cablered.iptvperu.tv:1936/cablered/HTV/playlist.m3u8
 
@@ -193,6 +196,21 @@ https://cdnhd.iblups.com/hls/777b4d4cc0984575a7d14f6ee57dbcaf7.m3u8
 
 
 
+#EXTINF:-1 tvg-id="44" tvg-name="ESPN" tvg-logo="https://i.ibb.co/NdNfkK0V/ESPN.png" group-title="Nacionales", ESPN
+http://181.115.237.3:9560/play/a02t/index.m3u8
+
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="ESPN 2" tvg-logo="https://i.ibb.co/gZH3yb8K/ESPN2.png" group-title="Nacionales", ESPN 2
+http://181.115.237.3:9560/play/a01a/index.m3u8
+
+
+
+
+
+
+
+
 
 #EXTINF:-1 tvg-id="44" tvg-name="Karibeña" tvg-logo="https://i.ibb.co/mCgBqMsN/KARIBE-A.png" group-title="Nacionales", Karibeña
 https://live-player.egostreaming.pe/karibenatv_685a-pe-a5676-584412/tracks-v1a1/mono.ts.m3u8
@@ -254,6 +272,7 @@ https://d1hcj42s7cseno.cloudfront.net/playlist.m3u8
 https://d25v414d53fogv.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w240-h480-rw" group-title="General",SONY SHARK TANK
 https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w240-h480-rw
+
 
 
 

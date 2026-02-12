@@ -2,7 +2,12 @@
 
 
 
+#EXTINF:-1 tvg-id="33" tvg-name="Vos HD" tvg-logo="https://i.ibb.co/r2ZxLX9x/ATB.png" group-title="Nacionales", ATB 
+https://cdn.digital.com.bo/__cl/cg:sworigin2/__c/ATB/__op/hls-default/__f/index.m3u8
 
+
+#EXTINF:-1 tvg-id="34" tvg-name="Vos HD" tvg-logo="https://canales.asplurtv.com/logo_amitel.png" group-title="Nacionales", Amitel 
+https://stv2.boliviaplay.com.bo/hls/0/stream.m3u8
 
 #EXTINF:-1 tvg-id="35" tvg-name="Vos HD" tvg-logo="https://i.ibb.co/BVjLCTzN/VOSTVOF.png" group-title="Nacionales", Vos HD
 https://59d39900ebfb8.streamlock.net/vostv/vostv/playlist.m3u8
@@ -29,7 +34,8 @@ https://streamer03.digital.com.bo/2ap337/__cl/cg:sworigin2/__c/REDUNO/__op/hls-d
 
 
 
-
+#EXTINF:-1 tvg-id="41" tvg-name="Vos HD" tvg-logo="https://i.ibb.co/8nKh5B7L/REDUNOOF.png" group-title="Nacionales", Red Uno SCZ
+https://streamer03.digital.com.bo/2ap337/__cl/cg:sworigin2/__c/REDUNO/__op/hls-default/__f/index.m3u8
 
 
 
@@ -39,6 +45,7 @@ https://streamer03.digital.com.bo/2ap337/__cl/cg:sworigin2/__c/REDUNO/__op/hls-d
 
 
 Pegas esto y le pones lista.m3u
+
 
 
 

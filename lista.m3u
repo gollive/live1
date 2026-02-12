@@ -1,5 +1,8 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-id="44" tvg-name="HTV MUSIC" tvg-logo="https://tips.gg/es/match/gv-san-jose-vs-always-ready-12-02-2026-09-15/poster/" group-title="Nacionales", Liga Boliviana
+https://customer-y2gm8p8s62qd6vsm.cloudflarestream.com/514e3012356d4e0a39794de4335321f4/manifest/video.m3u8
+
 
 #EXTINF:-1 tvg-id="44" tvg-name="HTV MUSIC" tvg-logo="https://sportal365images.com/process/smp-images-production/record.mx/20012026/fadf5089-fc0d-4f89-bd3d-6a6f58036725.jpg" group-title="Nacionales", SKY Sports
 https://normielista.stream/sky_sports_mx_1/tracks-v1a1/mono.m3u8
@@ -287,6 +290,7 @@ https://d1hcj42s7cseno.cloudfront.net/playlist.m3u8
 https://d25v414d53fogv.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w240-h480-rw" group-title="General",SONY SHARK TANK
 https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w240-h480-rw
+
 
 
 

@@ -1,6 +1,7 @@
 #EXTM3U
 
-
+#EXTINF:-1 tvg-id="44" tvg-name="Zona Sur" tvg-logo="https://zonasurtv.cl/wp-content/uploads/2025/06/logo-zona-sur-tv.webp" group-title="Nacionales", Zona Sur
+https://5ff3d9babae13.streamlock.net:443/tvtumqsfdn/tvtumqsfdn/playlist.m3u8
 
 #EXTINF:-1 tvg-id="33" tvg-name="Vos HD" tvg-logo="https://i.ibb.co/r2ZxLX9x/ATB.png" group-title="Nacionales", ATB 
 https://cdn.digital.com.bo/__cl/cg:sworigin2/__c/ATB/__op/hls-default/__f/index.m3u8
@@ -74,8 +75,6 @@ https://eu1.servers10.com:8081/8010/index.m3u8
 
 
 
-#EXTINF:-1 tvg-id="44" tvg-name="Unifranz" tvg-logo="https://canales.asplurtv.com/logo_unifranz.png" group-title="Nacionales", Unifranz
-https://eu1.servers10.com:8081/8010/index.m3u8
 
 
 #EXTINF:-1 tvg-id="44" tvg-name="PAT" tvg-logo="https://canales.asplurtv.com/logo_pat.png" group-title="Nacionales", PAT
@@ -173,6 +172,27 @@ https://icecast.online/hls/imperial25/stream.m3u8
 
 
 
+#EXTINF:-1 tvg-id="44" tvg-name="CNN ESPAÑOL" tvg-logo="https://i.ibb.co/1G87bpMB/CNN.png" group-title="Nacionales", CNN ESPAÑOL
+https://amg00803-cnnfast-amg00803c3-lg-es-5477.playouts.now.amagi.tv/playlist1080p.m3u8
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="RT" tvg-logo="https://i.ibb.co/vxSj77t7/RTES.png" group-title="Nacionales", RT
+https://rt-esp.rttv.com/dvr/rtesp/playlist_800Kb.m3u8
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="RTVE" tvg-logo="https://i.ibb.co/2Ym0YmPY/CANAL24.png" group-title="Nacionales", RTVE
+https://ztnr.rtve.es/ztnr/1694255.m3u8
+
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="BIO BIO" tvg-logo="https://www.biobiochile.cl/assets/img/bbtv_dm.png" group-title="Nacionales", BIO BIO
+https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/bbtv/bbtv.smil/playlist.m3u8?did=
+
+
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="TeleSur" tvg-logo="https://www.telesurtv.net/content/themes/telesur/dist/assets/img/only-logo.png" group-title="Nacionales", TeleSur
+https://mblesmain01.telesur.ultrabase.net/mbliveMain/480p/playlist.m3u8
 
 
 
@@ -182,6 +202,24 @@ https://icecast.online/hls/imperial25/stream.m3u8
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="T13" tvg-logo="https://i.ibb.co/S7mkj78w/13.png" group-title="Nacionales", T13
+https://origin.dpsgo.com/ssai/event/3CNEz8LDSXGyWmOfV5YubQ/master.m3u8
+
+
+
+#EXTINF:-1 tvg-id="44" tvg-name="Canal 26" tvg-logo="https://cdn.rudo.video/assets/canal-13/live/logoApi_89a113ff9bbb5c995ba764e5eff431891742413042.png" group-title="Nacionales", Canal 26
+https://origin.dpsgo.com/ssai/event/8jd3krwvQv2Q3703Wacb-A/master.m3u8
 
 
 

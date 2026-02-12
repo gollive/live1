@@ -231,33 +231,28 @@ https://mblesmain01.telesur.ultrabase.net/mbliveMain/480p/playlist.m3u8
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #EXTINF:-1 tvg-id="44" tvg-name="T13" tvg-logo="https://i.ibb.co/S7mkj78w/13.png" group-title="Nacionales", T13
 https://origin.dpsgo.com/ssai/event/3CNEz8LDSXGyWmOfV5YubQ/master.m3u8
-
 
 
 #EXTINF:-1 tvg-id="44" tvg-name="Canal 26" tvg-logo="https://cdn.rudo.video/assets/canal-13/live/logoApi_89a113ff9bbb5c995ba764e5eff431891742413042.png" group-title="Nacionales", Canal 26
 https://origin.dpsgo.com/ssai/event/8jd3krwvQv2Q3703Wacb-A/master.m3u8
 
 
-
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w240-h480-rw" group-title="General",SONY ACCION
+https://de9yx47crxs6l.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w240-h480-rw" group-title="General",SONY COMEDIA
+https://d3m8rnla2v9m5d.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w240-h480-rw" group-title="General",SONY THRILLER
+https://d1wuti7vf6eqt9.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w240-h480-rw" group-title="General",SONY SERIES COMEDIA
+https://d1fhd07bw4d2d6.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w240-h480-rw" group-title="General",SONY EXISTOS
+https://d1hcj42s7cseno.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w240-h480-rw" group-title="General",SONY BLACKLIST
+https://d25v414d53fogv.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w240-h480-rw" group-title="General",SONY SHARK TANK
+https://play-lh.googleusercontent.com/7DRaDczy1zOuBcLdixMRf_NAxAFq6BuNJ1OQdlmN-nuSWfGYj_phTEpa_PiFqHxMRF_-=w240-h480-rw
 
 
 

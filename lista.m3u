@@ -1,5 +1,9 @@
 #EXTM3U
 
+
+
+
+
 #EXTINF:-1 tvg-id="35" tvg-name="Vos HD" tvg-logo="https://i.ibb.co/BVjLCTzN/VOSTVOF.png" group-title="Nacionales", Vos HD
 https://59d39900ebfb8.streamlock.net/vostv/vostv/playlist.m3u8
 
@@ -13,9 +17,20 @@ https://lv.andeshost.com/hls/faptv/index.m3u8
 https://seo.tv.bo/hls/TVOFF.m3u8
 
 
+#EXTINF:-1 tvg-id="39" tvg-name="Vos HD" tvg-logo="https://canales.asplurtv.com/logo_unitel.png" group-title="Nacionales", Unitel LPZ
+https://mdstrm.com/live-stream-playlist/6928b14aaa768aad947bf65d.m3u8
 
-#EXTINF:-1 tvg-id="39" tvg-name="RTP" tvg-logo="https://i.ibb.co/vxSj77t7/RTES.pngg" group-title="Nacionales", RTP
-https://rt-esp.rttv.com/dvr/rtesp/playlist_800Kb.m3u8
+
+#EXTINF:-1 tvg-id="40" tvg-name="Vos HD" tvg-logo="https://i.ibb.co/Z11npYR0/UNITELOF.png" group-title="Nacionales", Unitel SCZ
+https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8
+
+#EXTINF:-1 tvg-id="41" tvg-name="Vos HD" tvg-logo="https://i.ibb.co/8nKh5B7L/REDUNOOF.png" group-title="Nacionales", Red Uno SCZ
+https://streamer03.digital.com.bo/2ap337/__cl/cg:sworigin2/__c/REDUNO/__op/hls-default/__f/index.m3u8
+
+
+
+
+
 
 
 
@@ -24,5 +39,6 @@ https://rt-esp.rttv.com/dvr/rtesp/playlist_800Kb.m3u8
 
 
 Pegas esto y le pones lista.m3u
+
 
 
